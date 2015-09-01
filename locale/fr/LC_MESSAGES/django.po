@@ -1,10 +1,11 @@
 # French translation file for the OSQA application.
-# Copyright (C) 2010
+# Copyright (C) 2010, 2015
 # This file is distributed under the same license as the OSQA package.
 # Laurent Raufaste <analogue@glop.org>, 2010.
 # Stephan Losa <stephan.losa@gmail.com>, 2010.
 # Benoit Sibaud <oumph@free.fr>, 2013.
 # Jill-Jênn Vie <vie@jill-jenn.net>, 2013.
+# Denis Bitouzé <denis.bitouze@univ-littoral.fr>, 2015.
 #
 msgid ""
 msgstr ""
@@ -147,15 +148,15 @@ msgstr "donner le statut de super utilisateur"
 
 #: forum/urls.py:22 forum/urls.py:24
 msgid "nimda/"
-msgstr "nimda/"
+msgstr ""
 
 #: forum/urls.py:36
 msgid "upfiles/"
-msgstr "televersements/"
+msgstr ""
 
 #: forum/urls.py:38
 msgid "faq/"
-msgstr "faq/"
+msgstr ""
 
 #: forum/urls.py:38
 msgid "FAQ"
@@ -163,7 +164,7 @@ msgstr "FAQ"
 
 #: forum/urls.py:39
 msgid "about/"
-msgstr "a_propos/"
+msgstr ""
 
 #: forum/urls.py:39
 msgid "About"
@@ -171,271 +172,271 @@ msgstr "À propos"
 
 #: forum/urls.py:40
 msgid "markdown_help/"
-msgstr "aide_markdown/"
+msgstr ""
 
 #: forum/urls.py:42
 msgid "privacy/"
-msgstr "vie_privee/"
+msgstr ""
 
 #: forum/urls.py:43
 msgid "logout/"
-msgstr "deconnexion/"
+msgstr ""
 
 #: forum/urls.py:44
 msgid "answers/"
-msgstr "reponses/"
+msgstr ""
 
 #: forum/urls.py:44 forum/urls.py:54 forum/urls.py:96 forum/urls.py:143
 msgid "edit/"
-msgstr "modifier/"
+msgstr ""
 
 #: forum/urls.py:45
 msgid "revisions/"
-msgstr "changements/"
+msgstr ""
 
 #: forum/urls.py:46 forum/urls.py:47 forum/urls.py:48 forum/urls.py:50
 #: forum/urls.py:51 forum/urls.py:54 forum/urls.py:55 forum/urls.py:56
 #: forum/urls.py:57 forum/urls.py:82 forum/urls.py:83 forum/urls.py:84
 msgid "questions/"
-msgstr "questions/"
+msgstr ""
 
 #: forum/urls.py:47
 msgid "ask/"
-msgstr "demandez/"
+msgstr ""
 
 #: forum/urls.py:48
 msgid "related_questions/"
-msgstr "questions_connexes"
+msgstr ""
 
 #: forum/urls.py:50
 msgid "unanswered/"
-msgstr "sans_reponse/"
+msgstr ""
 
 #: forum/urls.py:55
 msgid "close/"
-msgstr "fermer/"
+msgstr ""
 
 #: forum/urls.py:56
 msgid "reopen/"
-msgstr "rouvrir/"
+msgstr ""
 
 #: forum/urls.py:57 forum/urls.py:68
 msgid "answer/"
-msgstr "reponse/"
+msgstr ""
 
 #: forum/urls.py:58
 msgid "pending-data/"
-msgstr "donnees_en_cours/"
+msgstr ""
 
 #: forum/urls.py:60
 msgid "vote/"
-msgstr "vote/"
+msgstr ""
 
 #: forum/urls.py:61
 msgid "like_comment/"
-msgstr "apprecier_commentaire/"
+msgstr ""
 
 #: forum/urls.py:62
 msgid "comment/"
-msgstr "commentaire/"
+msgstr ""
 
 #: forum/urls.py:63
 msgid "delete_comment/"
-msgstr "effacer_commentaire/"
+msgstr ""
 
 #: forum/urls.py:64
 msgid "convert_comment/"
-msgstr "convertir_commentaire/"
+msgstr ""
 
 #: forum/urls.py:65
 msgid "accept_answer/"
-msgstr "accepter_reponse/"
+msgstr ""
 
 #: forum/urls.py:66
 msgid "answer_link/"
-msgstr "lien_reponse/"
+msgstr ""
 
 #: forum/urls.py:67
 msgid "mark_favorite/"
-msgstr "ajouter_favoris/"
+msgstr ""
 
 #: forum/urls.py:68
 msgid "award_points/"
-msgstr "points_recompense/"
+msgstr ""
 
 #: forum/urls.py:68
 msgid "user/"
-msgstr "utilisateur/"
+msgstr ""
 
 #: forum/urls.py:70
 msgid "flag/"
-msgstr "signalement/"
+msgstr ""
 
 #: forum/urls.py:71
 msgid "delete/"
-msgstr "supprimer/"
+msgstr ""
 
 #: forum/urls.py:72 forum/urls.py:73
 msgid "subscribe/"
-msgstr "abonnez_vous/"
+msgstr ""
 
 #: forum/urls.py:74
 msgid "matching_tags/"
-msgstr "mots_cles_similaires/"
+msgstr ""
 
 #: forum/urls.py:75
 msgid "matching_users/"
-msgstr "utilisateurs_similaires/"
+msgstr ""
 
-# msgstr "comparaison_motscles/"
+# msgstr ""
 #: forum/urls.py:76
 msgid "node_markdown/"
-msgstr "node_markdown/"
+msgstr ""
 
 #: forum/urls.py:77
 msgid "convert/"
-msgstr "convertir/"
+msgstr ""
 
 #: forum/urls.py:78
 msgid "convert_to_question/"
-msgstr "convertir_en_question/"
+msgstr ""
 
 #: forum/urls.py:79
 msgid "wikify/"
-msgstr "wikifier/"
+msgstr ""
 
 #: forum/urls.py:81
 msgid "question/"
-msgstr "question/"
+msgstr ""
 
 #: forum/urls.py:87 forum/urls.py:88
 msgid "tags/"
-msgstr "tags/"
+msgstr ""
 
 #: forum/urls.py:89 forum/urls.py:90
 msgid "mark-tag/"
-msgstr "marquer-tag/"
+msgstr ""
 
 #: forum/urls.py:89
 msgid "interesting/"
-msgstr "interessant/"
+msgstr ""
 
 #: forum/urls.py:90
 msgid "ignored/"
-msgstr "ignore/"
+msgstr ""
 
 #: forum/urls.py:91
 msgid "unmark-tag/"
-msgstr "enlever-tag/"
+msgstr ""
 
 #: forum/urls.py:93 forum/urls.py:96 forum/urls.py:97 forum/urls.py:98
 #: forum/urls.py:99 forum/urls.py:100 forum/urls.py:101 forum/urls.py:102
 #: forum/urls.py:103 forum/urls.py:104 forum/urls.py:105 forum/urls.py:106
 msgid "users/"
-msgstr "utilisateurs/"
+msgstr ""
 
 #: forum/urls.py:97
 msgid "award/"
-msgstr "recompense/"
+msgstr ""
 
 #: forum/urls.py:98
 msgid "suspend/"
-msgstr "suspendre/"
+msgstr ""
 
 #: forum/urls.py:99
 msgid "powers/"
-msgstr "privileges/"
+msgstr ""
 
 #: forum/urls.py:100
 msgid "subscriptions/"
-msgstr "abonnements/"
+msgstr ""
 
 #: forum/urls.py:101
 msgid "preferences/"
-msgstr "preferences/"
+msgstr ""
 
 #: forum/urls.py:102
 msgid "favorites/"
-msgstr "favoris/"
+msgstr ""
 
 #: forum/urls.py:103
 msgid "reputation/"
-msgstr "reputation/"
+msgstr ""
 
 #: forum/urls.py:104
 msgid "votes/"
-msgstr "voix/"
+msgstr ""
 
 #: forum/urls.py:105
 msgid "recent/"
-msgstr "recent/"
+msgstr ""
 
 #: forum/urls.py:107 forum/urls.py:108
 msgid "badges/"
-msgstr "badges/"
+msgstr ""
 
 #: forum/urls.py:111
 msgid "upload/"
-msgstr "upload/"
+msgstr ""
 
 #: forum/urls.py:112
 msgid "search/"
-msgstr "recherche/"
+msgstr ""
 
 #: forum/urls.py:113
 msgid "contact/"
-msgstr "contact/"
+msgstr ""
 
 #: forum/urls.py:117 forum/urls.py:118 forum/urls.py:119 forum/urls.py:120
 #: forum/urls.py:121 forum/urls.py:122 forum/urls.py:123 forum/urls.py:124
 #: forum/urls.py:125 forum/urls.py:126 forum/urls.py:127 forum/urls.py:128
 #: forum_modules/localauth/urls.py:7
 msgid "account/"
-msgstr "compte/"
+msgstr ""
 
 #: forum/urls.py:117 forum/urls.py:119
 msgid "signin/"
-msgstr "connexion/"
+msgstr ""
 
 #: forum/urls.py:118
 msgid "signout/"
-msgstr "deconnecter/"
+msgstr ""
 
 #: forum/urls.py:120
 msgid "done/"
-msgstr "fait/"
+msgstr ""
 
 #: forum/urls.py:121 forum_modules/localauth/urls.py:7
 msgid "register/"
-msgstr "inscription/"
+msgstr ""
 
 #: forum/urls.py:122
 msgid "validate/"
-msgstr "valider/"
+msgstr ""
 
 #: forum/urls.py:123 forum/urls.py:124
 msgid "tempsignin/"
-msgstr "connexion_temporaire/"
+msgstr ""
 
 #: forum/urls.py:125
 msgid "authsettings/"
-msgstr "parametres_authentification/"
+msgstr ""
 
 #: forum/urls.py:126 forum/urls.py:127
 msgid "providers/"
-msgstr "fournisseurs/"
+msgstr ""
 
 #: forum/urls.py:126
 msgid "remove/"
-msgstr "supprimer/"
+msgstr ""
 
 #: forum/urls.py:127
 msgid "add/"
-msgstr "ajouter/"
+msgstr ""
 
 #: forum/urls.py:128
 msgid "send-validation/"
-msgstr "valider/"
+msgstr ""
 
 #: forum/urls.py:131 forum/urls.py:132 forum/urls.py:133 forum/urls.py:134
 #: forum/urls.py:135 forum/urls.py:136 forum/urls.py:137 forum/urls.py:138
@@ -444,55 +445,55 @@ msgstr "valider/"
 #: forum_modules/exporter/urls.py:8 forum_modules/exporter/urls.py:9
 #: forum_modules/exporter/urls.py:10 forum_modules/sximporter/urls.py:8
 msgid "admin/"
-msgstr "admin/"
+msgstr ""
 
 #: forum/urls.py:132
 msgid "switch_interface/"
-msgstr "changer_interface"
+msgstr ""
 
 #: forum/urls.py:133
 msgid "statistics/"
-msgstr "statistiques/"
+msgstr ""
 
 #: forum/urls.py:134
 msgid "denormalize/"
-msgstr "denormaliser/"
+msgstr ""
 
 #: forum/urls.py:135
 msgid "go_bootstrap/"
-msgstr "go_bootstrap/"
+msgstr ""
 
 #: forum/urls.py:136
 msgid "go_defaults/"
-msgstr "retablir/"
+msgstr ""
 
 #: forum/urls.py:137 forum/urls.py:147
 msgid "settings/"
-msgstr "parametres/"
+msgstr ""
 
 #: forum/urls.py:138
 msgid "maintenance/"
-msgstr "maintenance/"
+msgstr ""
 
 #: forum/urls.py:139
 msgid "flagged_posts/"
-msgstr "messages_suivis"
+msgstr ""
 
 #: forum/urls.py:140 forum/urls.py:142 forum/urls.py:143
 msgid "static_pages/"
-msgstr "pages_statiques/"
+msgstr ""
 
 #: forum/urls.py:142
 msgid "new/"
-msgstr "nouveau/"
+msgstr ""
 
 #: forum/urls.py:145
 msgid "tools/"
-msgstr "outils/"
+msgstr ""
 
 #: forum/urls.py:149
 msgid "test_email_settings/"
-msgstr "test_parametres_courriel/"
+msgstr ""
 
 #: forum/actions/meta.py:39
 #, python-format
@@ -4537,12 +4538,12 @@ msgstr "Merci"
 
 #: forum/skins/default/templates/notifications/base.html:26
 msgid "P.S. You can always fine-tune which notifications you receive"
-msgstr "P.S. Vous pouvez toujours modifier les notifications que vous recevez"
+msgstr "P.S. Vous pouvez toujours ajuster les notifications que vous recevez"
 
 #: forum/skins/default/templates/notifications/base_text.html:13
 msgid "P.S. You can always fine-tune which notifications you receive here:"
 msgstr ""
-"P.S. Vous pouvez toujours modifier les notifications que vous recevez ici:"
+"P.S. Vous pouvez toujours ajuster les notifications que vous recevez ici:"
 
 #: forum/skins/default/templates/notifications/digest.html:14
 #, python-format
@@ -4831,7 +4832,7 @@ msgid ""
 msgstr ""
 "\n"
 "           %(author_link)s vient de publier une nouvelle question sur "
-"%(app_name)s, avec le titre\n"
+"%(app_name)s, intitulée\n"
 "            %(question_link)s\n"
 "            et mots-clés \"<em>%(tag_links)s</em>\":\n"
 "            "
@@ -7724,19 +7725,19 @@ msgstr "Un dossier pour structurer vos sauvegardes"
 
 #: forum_modules/exporter/urls.py:8 forum_modules/exporter/urls.py:10
 msgid "exporter/"
-msgstr "exportateur/"
+msgstr ""
 
 #: forum_modules/exporter/urls.py:8
 msgid "state/"
-msgstr "état"
+msgstr ""
 
 #: forum_modules/exporter/urls.py:9
 msgid "running/"
-msgstr "en cours"
+msgstr ""
 
 #: forum_modules/exporter/urls.py:10
 msgid "download/"
-msgstr "téléchargement/"
+msgstr ""
 
 #: forum_modules/exporter/views.py:21 forum_modules/exporter/views.py:69
 msgid "exporter"
@@ -7883,7 +7884,7 @@ msgstr "Entrez le nom d'utilisateur"
 
 #: forum_modules/localauth/urls.py:7
 msgid "local/"
-msgstr "local/"
+msgstr ""
 
 #: forum_modules/localauth/templates/loginform.html:4
 msgid "Enter your local user name and password"
@@ -7967,7 +7968,7 @@ msgstr "utilisateur-%(id)s (yahoo)"
 
 #: forum_modules/sximporter/urls.py:8
 msgid "sximporter/"
-msgstr "sximporter/"
+msgstr ""
 
 #: forum_modules/sximporter/templates/page.html:7
 msgid "SX Importer"

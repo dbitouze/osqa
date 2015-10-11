@@ -11,7 +11,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-04-08 11:32-0400\n"
-"PO-Revision-Date: 2010-07-20 11:12+0100\n"
+"PO-Revision-Date: 2015-10-06 08:33+0200\n"
+"Last-Translator: Denis Bitouzé <denis.bitouze@lmpa.univ-littoral.fr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -39,12 +40,12 @@ msgstr "Réponses à : %s"
 #: forum/feed.py:100
 #, python-format
 msgid "Answer by %s"
-msgstr "Répondu par : %s"
+msgstr "Réponse par : %s"
 
 #: forum/feed.py:102
 #, python-format
 msgid "Comment by %(cauthor)s on %(pauthor)s's %(qora)s"
-msgstr "Commentaire de %(cauthor)s sur %(pauthor)s %(qora)s"
+msgstr "Commentaire de %(cauthor)s sur %(qora)s de %(pauthor)s"
 
 # # not good - need to see the context
 #: forum/feed.py:103 forum/models/answer.py:5
@@ -66,36 +67,36 @@ msgstr "question"
 #: forum/skins/default/templates/index.html:15
 #: forum/skins/default/templates/question_edit_tips.html:9
 msgid "faq"
-msgstr "faq"
+msgstr "FAQ"
 
 #: forum/registry.py:23 forum/registry.py:58
 #: forum/skins/default/templates/index.html:14
 msgid "about"
-msgstr "à propos"
+msgstr "À propos"
 
 #: forum/registry.py:26
 msgid "logout"
-msgstr "déconnexion"
+msgstr "Déconnexion"
 
 #: forum/registry.py:26
 msgid "login"
-msgstr "connexion"
+msgstr "Connexion"
 
 #: forum/registry.py:39
 msgid "administration"
-msgstr "administration"
+msgstr "Administration"
 
 #: forum/registry.py:52
 msgid "contact"
-msgstr "contact"
+msgstr "Contact"
 
 #: forum/registry.py:55
 msgid "support"
-msgstr "aide"
+msgstr "Aide"
 
 #: forum/registry.py:56
 msgid "privacy"
-msgstr "vie privée"
+msgstr "Vie privée"
 
 #: forum/registry.py:71 forum/skins/default/templates/users/edit.html:33
 msgid "edit profile"
@@ -103,15 +104,15 @@ msgstr "Modifier le profil"
 
 #: forum/registry.py:78
 msgid "authentication settings"
-msgstr "paramètres d'authentification"
+msgstr "Paramètres d'authentification"
 
 #: forum/registry.py:85
 msgid "email notification settings"
-msgstr "configuration des notifications par courriel"
+msgstr "Configuration des notifications par courriel"
 
 #: forum/registry.py:92
 msgid "other preferences"
-msgstr "autres préférences"
+msgstr "Autres préférences"
 
 #: forum/registry.py:97
 msgid "Moderation tools"
@@ -147,23 +148,23 @@ msgstr "donner le statut de super utilisateur"
 
 #: forum/urls.py:22 forum/urls.py:24
 msgid "nimda/"
-msgstr "nimda/"
+msgstr ""
 
 #: forum/urls.py:36
 msgid "upfiles/"
-msgstr "televersements/"
+msgstr ""
 
 #: forum/urls.py:38
 msgid "faq/"
-msgstr "faq/"
+msgstr ""
 
 #: forum/urls.py:38
 msgid "FAQ"
-msgstr "FAQ"
+msgstr "Frequently Asked Questions (Foire Aux Questions)"
 
 #: forum/urls.py:39
 msgid "about/"
-msgstr "a_propos/"
+msgstr ""
 
 #: forum/urls.py:39
 msgid "About"
@@ -171,271 +172,276 @@ msgstr "À propos"
 
 #: forum/urls.py:40
 msgid "markdown_help/"
-msgstr "aide_markdown/"
+msgstr ""
 
 #: forum/urls.py:42
 msgid "privacy/"
-msgstr "vie_privee/"
+msgstr ""
 
 #: forum/urls.py:43
 msgid "logout/"
-msgstr "deconnexion/"
+msgstr ""
 
 #: forum/urls.py:44
 msgid "answers/"
-msgstr "reponses/"
+msgstr ""
 
 #: forum/urls.py:44 forum/urls.py:54 forum/urls.py:96 forum/urls.py:143
 msgid "edit/"
-msgstr "modifier/"
+msgstr ""
 
 #: forum/urls.py:45
 msgid "revisions/"
-msgstr "changements/"
+msgstr ""
 
 #: forum/urls.py:46 forum/urls.py:47 forum/urls.py:48 forum/urls.py:50
 #: forum/urls.py:51 forum/urls.py:54 forum/urls.py:55 forum/urls.py:56
 #: forum/urls.py:57 forum/urls.py:82 forum/urls.py:83 forum/urls.py:84
 msgid "questions/"
-msgstr "questions/"
+msgstr ""
 
 #: forum/urls.py:47
 msgid "ask/"
-msgstr "demandez/"
+msgstr ""
 
 #: forum/urls.py:48
 msgid "related_questions/"
-msgstr "questions_connexes"
+msgstr ""
 
 #: forum/urls.py:50
 msgid "unanswered/"
-msgstr "sans_reponse/"
+msgstr ""
 
 #: forum/urls.py:55
 msgid "close/"
-msgstr "fermer/"
+msgstr ""
 
 #: forum/urls.py:56
 msgid "reopen/"
-msgstr "rouvrir/"
+msgstr ""
 
 #: forum/urls.py:57 forum/urls.py:68
 msgid "answer/"
-msgstr "reponse/"
+msgstr ""
 
 #: forum/urls.py:58
 msgid "pending-data/"
-msgstr "donnees_en_cours/"
+msgstr ""
 
 #: forum/urls.py:60
 msgid "vote/"
-msgstr "vote/"
+msgstr ""
 
 #: forum/urls.py:61
 msgid "like_comment/"
-msgstr "apprecier_commentaire/"
+msgstr ""
 
 #: forum/urls.py:62
 msgid "comment/"
-msgstr "commentaire/"
+msgstr ""
 
 #: forum/urls.py:63
 msgid "delete_comment/"
-msgstr "effacer_commentaire/"
+msgstr ""
 
 #: forum/urls.py:64
 msgid "convert_comment/"
-msgstr "convertir_commentaire/"
+msgstr ""
 
 #: forum/urls.py:65
 msgid "accept_answer/"
-msgstr "accepter_reponse/"
+msgstr ""
 
 #: forum/urls.py:66
 msgid "answer_link/"
-msgstr "lien_reponse/"
+msgstr ""
 
 #: forum/urls.py:67
 msgid "mark_favorite/"
-msgstr "ajouter_favoris/"
+msgstr ""
 
 #: forum/urls.py:68
 msgid "award_points/"
-msgstr "points_recompense/"
+msgstr ""
 
 #: forum/urls.py:68
 msgid "user/"
-msgstr "utilisateur/"
+msgstr ""
 
 #: forum/urls.py:70
 msgid "flag/"
-msgstr "signalement/"
+msgstr ""
 
 #: forum/urls.py:71
 msgid "delete/"
-msgstr "supprimer/"
+msgstr ""
 
 #: forum/urls.py:72 forum/urls.py:73
 msgid "subscribe/"
-msgstr "abonnez_vous/"
+msgstr ""
 
 #: forum/urls.py:74
 msgid "matching_tags/"
-msgstr "mots_cles_similaires/"
+msgstr ""
 
 #: forum/urls.py:75
 msgid "matching_users/"
-msgstr "utilisateurs_similaires/"
+msgstr ""
 
 # msgstr "comparaison_motscles/"
 #: forum/urls.py:76
 msgid "node_markdown/"
-msgstr "node_markdown/"
+msgstr ""
 
 #: forum/urls.py:77
 msgid "convert/"
-msgstr "convertir/"
+msgstr ""
 
 #: forum/urls.py:78
 msgid "convert_to_question/"
-msgstr "convertir_en_question/"
+msgstr ""
 
 #: forum/urls.py:79
 msgid "wikify/"
-msgstr "wikifier/"
+msgstr ""
 
 #: forum/urls.py:81
 msgid "question/"
-msgstr "question/"
+msgstr ""
 
 #: forum/urls.py:87 forum/urls.py:88
 msgid "tags/"
-msgstr "tags/"
+msgstr ""
 
 #: forum/urls.py:89 forum/urls.py:90
 msgid "mark-tag/"
-msgstr "marquer-tag/"
+msgstr ""
 
 #: forum/urls.py:89
 msgid "interesting/"
-msgstr "interessant/"
+msgstr ""
 
 #: forum/urls.py:90
 msgid "ignored/"
-msgstr "ignore/"
+msgstr ""
 
 #: forum/urls.py:91
 msgid "unmark-tag/"
-msgstr "enlever-tag/"
+msgstr ""
 
 #: forum/urls.py:93 forum/urls.py:96 forum/urls.py:97 forum/urls.py:98
 #: forum/urls.py:99 forum/urls.py:100 forum/urls.py:101 forum/urls.py:102
 #: forum/urls.py:103 forum/urls.py:104 forum/urls.py:105 forum/urls.py:106
 msgid "users/"
-msgstr "utilisateurs/"
+msgstr ""
 
 #: forum/urls.py:97
 msgid "award/"
-msgstr "recompense/"
+msgstr ""
 
 #: forum/urls.py:98
 msgid "suspend/"
-msgstr "suspendre/"
+msgstr ""
+
+#: forum/urls.py:102
+msgid "report/"
+msgstr ""
 
 #: forum/urls.py:99
 msgid "powers/"
-msgstr "privileges/"
+msgstr ""
 
 #: forum/urls.py:100
 msgid "subscriptions/"
-msgstr "abonnements/"
+msgstr ""
 
 #: forum/urls.py:101
 msgid "preferences/"
-msgstr "preferences/"
+msgstr ""
 
 #: forum/urls.py:102
 msgid "favorites/"
-msgstr "favoris/"
+msgstr ""
 
 #: forum/urls.py:103
 msgid "reputation/"
-msgstr "reputation/"
+msgstr ""
 
 #: forum/urls.py:104
 msgid "votes/"
-msgstr "voix/"
+msgstr ""
 
 #: forum/urls.py:105
 msgid "recent/"
-msgstr "recent/"
+msgstr ""
 
 #: forum/urls.py:107 forum/urls.py:108
 msgid "badges/"
-msgstr "badges/"
+msgstr ""
 
 #: forum/urls.py:111
 msgid "upload/"
-msgstr "upload/"
+msgstr ""
 
 #: forum/urls.py:112
 msgid "search/"
-msgstr "recherche/"
+msgstr ""
 
 #: forum/urls.py:113
 msgid "contact/"
-msgstr "contact/"
+msgstr ""
 
 #: forum/urls.py:117 forum/urls.py:118 forum/urls.py:119 forum/urls.py:120
 #: forum/urls.py:121 forum/urls.py:122 forum/urls.py:123 forum/urls.py:124
 #: forum/urls.py:125 forum/urls.py:126 forum/urls.py:127 forum/urls.py:128
 #: forum_modules/localauth/urls.py:7
 msgid "account/"
-msgstr "compte/"
+msgstr ""
 
 #: forum/urls.py:117 forum/urls.py:119
 msgid "signin/"
-msgstr "connexion/"
+msgstr ""
 
 #: forum/urls.py:118
 msgid "signout/"
-msgstr "deconnecter/"
+msgstr ""
 
 #: forum/urls.py:120
 msgid "done/"
-msgstr "fait/"
+msgstr ""
 
 #: forum/urls.py:121 forum_modules/localauth/urls.py:7
 msgid "register/"
-msgstr "inscription/"
+msgstr ""
 
 #: forum/urls.py:122
 msgid "validate/"
-msgstr "valider/"
+msgstr ""
 
 #: forum/urls.py:123 forum/urls.py:124
 msgid "tempsignin/"
-msgstr "connexion_temporaire/"
+msgstr ""
 
 #: forum/urls.py:125
 msgid "authsettings/"
-msgstr "parametres_authentification/"
+msgstr ""
 
 #: forum/urls.py:126 forum/urls.py:127
 msgid "providers/"
-msgstr "fournisseurs/"
+msgstr ""
 
 #: forum/urls.py:126
 msgid "remove/"
-msgstr "supprimer/"
+msgstr ""
 
 #: forum/urls.py:127
 msgid "add/"
-msgstr "ajouter/"
+msgstr ""
 
 #: forum/urls.py:128
 msgid "send-validation/"
-msgstr "valider/"
+msgstr ""
+
 
 #: forum/urls.py:131 forum/urls.py:132 forum/urls.py:133 forum/urls.py:134
 #: forum/urls.py:135 forum/urls.py:136 forum/urls.py:137 forum/urls.py:138
@@ -444,55 +450,55 @@ msgstr "valider/"
 #: forum_modules/exporter/urls.py:8 forum_modules/exporter/urls.py:9
 #: forum_modules/exporter/urls.py:10 forum_modules/sximporter/urls.py:8
 msgid "admin/"
-msgstr "admin/"
+msgstr ""
 
 #: forum/urls.py:132
 msgid "switch_interface/"
-msgstr "changer_interface"
+msgstr ""
 
 #: forum/urls.py:133
 msgid "statistics/"
-msgstr "statistiques/"
+msgstr ""
 
 #: forum/urls.py:134
 msgid "denormalize/"
-msgstr "denormaliser/"
+msgstr ""
 
 #: forum/urls.py:135
 msgid "go_bootstrap/"
-msgstr "go_bootstrap/"
+msgstr ""
 
 #: forum/urls.py:136
 msgid "go_defaults/"
-msgstr "retablir/"
+msgstr ""
 
 #: forum/urls.py:137 forum/urls.py:147
 msgid "settings/"
-msgstr "parametres/"
+msgstr ""
 
 #: forum/urls.py:138
 msgid "maintenance/"
-msgstr "maintenance/"
+msgstr ""
 
 #: forum/urls.py:139
 msgid "flagged_posts/"
-msgstr "messages_suivis"
+msgstr ""
 
 #: forum/urls.py:140 forum/urls.py:142 forum/urls.py:143
 msgid "static_pages/"
-msgstr "pages_statiques/"
+msgstr ""
 
 #: forum/urls.py:142
 msgid "new/"
-msgstr "nouveau/"
+msgstr ""
 
 #: forum/urls.py:145
 msgid "tools/"
-msgstr "outils/"
+msgstr ""
 
 #: forum/urls.py:149
 msgid "test_email_settings/"
-msgstr "test_parametres_courriel/"
+msgstr ""
 
 #: forum/actions/meta.py:39
 #, python-format
@@ -501,15 +507,15 @@ msgstr "%(user)s %(vote_desc)s %(post_desc)s"
 
 #: forum/actions/meta.py:58
 msgid "voted up"
-msgstr "confirmé"
+msgstr "a(vez) voté favorablement"
 
 #: forum/actions/meta.py:74
 msgid "voted down"
-msgstr "infirmé"
+msgstr "a(vez) voté défavorablement"
 
 #: forum/actions/meta.py:88
 msgid "liked"
-msgstr "apprécié"
+msgstr "avez apprécié"
 
 #: forum/actions/meta.py:116
 msgid "No reason given"
@@ -534,7 +540,7 @@ msgstr "sa" # TODO
 msgid ""
 "%(user)s accepted %(answerer)s answer on %(asker)s question %(question)s"
 msgstr ""
-"%(user)s a accepté la réponse de %(answerer)s pour la question de %(asker)s %(question)s"
+"%(user)s a accepté la réponse publiée par %(answerer)s pour la question « %(question)s » posée par %(asker)s"
 
 #: forum/actions/meta.py:172
 #, python-format
@@ -552,25 +558,25 @@ msgstr "signalé par plusieurs utilisateurs : "
 
 #: forum/actions/node.py:9 forum_modules/exporter/importer.py:496
 msgid "Initial revision"
-msgstr "Premier changement"
+msgstr "Révision initiale"
 
 #: forum/actions/node.py:20 forum/templatetags/node_tags.py:220
 msgid "asked"
-msgstr "posée"
+msgstr "Posée"
 
 #: forum/actions/node.py:32
 #, python-format
 msgid "%(user)s asked %(question)s"
-msgstr "%(question)s posée par %(user)s"
+msgstr "%(user)s a posé la question « %(question)s »"
 
 #: forum/actions/node.py:38 forum/templatetags/node_tags.py:221
 msgid "answered"
-msgstr "traitée"
+msgstr "Publiée"
 
 #: forum/actions/node.py:50
 #, python-format
 msgid "%(user)s answered %(asker)s on %(question)s"
-msgstr "%(user)s a répondu à %(question)s de %(asker)s"
+msgstr "%(user)s a répondu à la question « %(question)s » posée par %(asker)s"
 
 #: forum/actions/node.py:57
 msgid "commented"
@@ -583,7 +589,7 @@ msgstr "%(user)s a commenté %(post_desc)s "
 
 #: forum/actions/node.py:71 forum/actions/page.py:23
 msgid "edited"
-msgstr "modifié"
+msgstr "Modifié"
 
 #: forum/actions/node.py:83
 #, python-format
@@ -631,14 +637,18 @@ msgstr "converti"
 #: forum/actions/node.py:178
 #, python-format
 msgid "%(user)s converted an answer to %(question)s into a comment"
-msgstr ""
-"%(user)s a converti en commentaire la réponse à la question %(question)s"
+msgstr "%(user)s a converti en commentaire une réponse à la %(question)s"
 
 #: forum/actions/node.py:194
 #, python-format
 msgid "%(user)s converted comment on %(question)s into an answer"
+msgstr "%(user)s a converti en réponse un commentaire à la question « %(question)s »"
+
+#: forum/actions/node.py:227
+#, python-format
+msgid "%(user)s converted comment on %(question)s to a new question"
 msgstr ""
-"%(user)s a converti en commentaire la réponse à la question %(question)s"
+"%(user)s a converti en nouvelle question un commentaire à la question « %(question)s »"
 
 #: forum/actions/node.py:200
 msgid "converted to question"
@@ -647,8 +657,7 @@ msgstr "converti en question"
 #: forum/actions/node.py:225
 #, python-format
 msgid "%(user)s converted an answer to %(question)s into a separate question"
-msgstr ""
-"%(user)s a converti la réponse à la question %(question)s en une autre "
+msgstr "%(user)s a converti en une question séparée une réponse à la question « %(question)s »"
 "question"
 
 #: forum/actions/node.py:231
@@ -658,7 +667,7 @@ msgstr "wikifié"
 #: forum/actions/node.py:243
 #, python-format
 msgid "%(user)s marked %(node)s as community wiki."
-msgstr "%(user)s a marqué %(node)s comme favoris."
+msgstr "%(user)s a marqué %(node)s comme Wiki communautaire."
 
 #: forum/actions/page.py:6
 msgid "created"
@@ -667,12 +676,12 @@ msgstr "créée"
 #: forum/actions/page.py:17
 #, python-format
 msgid "%(user)s created a new page titled %(page)s"
-msgstr "%(user)s a créé une nouvelle page appelée %(page)s"
+msgstr "%(user)s a créé une nouvelle page intitulée %(page)s"
 
 #: forum/actions/page.py:36
 #, python-format
 msgid "%(user)s edited the page titled %(page)s"
-msgstr "%(user)s a modifié la page appelée %(page)s"
+msgstr "%(user)s a modifié la page intitulée %(page)s"
 
 #: forum/actions/page.py:42
 msgid "published"
@@ -681,16 +690,16 @@ msgstr "publié"
 #: forum/actions/page.py:55
 #, python-format
 msgid "%(user)s published a new page titled %(page)s"
-msgstr "%(user)s a publié une nouvelle page appelée %(page)s"
+msgstr "%(user)s a publié une nouvelle page intitulée %(page)s"
 
 #: forum/actions/user.py:10
 msgid "joined"
-msgstr "s'est connecté(e)"
+msgstr "a rejoint"
 
 #: forum/actions/user.py:20
 #, python-format
 msgid "%(user)s %(have_has)s joined the %(app_name)s Q&A community"
-msgstr "%(user)s %(have_has)s rejoint la communauté de questions/réponses %(app_name)s"
+msgstr "%(user)s %(have_has)s procédé à son inscription sur le site de questions/réponses %(app_name)s"
 
 #: forum/actions/user.py:22 forum/actions/user.py:39
 msgid "have"
@@ -700,14 +709,23 @@ msgstr "avez"
 msgid "has"
 msgstr "a"
 
+#: forum/actions/user.py:31
+msgid "logged in"
+msgstr "s'est connecté(e)"
+
+#: forum/actions/user.py:34
+#, python-format
+msgid "%(user)s %(have_has)s logged in"
+msgstr "%(user)s %(have_has)s rejoint le présent site"
+
 #: forum/actions/user.py:27
 msgid "validated e-mail"
-msgstr "adresse de courriel validée"
+msgstr "adresse courriel validée"
 
 #: forum/actions/user.py:37
 #, python-format
 msgid "%(user)s %(have_has)s validated the e-mail %(email)s"
-msgstr "%(user)s %(have_has)s validé l'adresse de courriel %(email)s"
+msgstr "%(user)s %(have_has)s validé l'adresse courriel %(email)s"
 
 #: forum/actions/user.py:44
 msgid "edited profile"
@@ -720,7 +738,7 @@ msgstr "%(user)s a modifié %(hes_or_your)s: %(profile_link)s"
 
 #: forum/actions/user.py:50
 msgid "profile"
-msgstr "Profil"
+msgstr "profil"
 
 #: forum/actions/user.py:54
 msgid "gave bonus"
@@ -729,7 +747,7 @@ msgstr "a donné un bonus"
 #: forum/actions/user.py:66
 #, python-format
 msgid "Congratulations, you have been awarded an extra %s reputation points."
-msgstr "Félicitations, vous avez recu %s points de réputation supplémentaires."
+msgstr "Félicitations, vous avez recu %s points supplémentaires de réputation."
 
 #: forum/actions/user.py:67
 msgid "Thank you"
@@ -738,7 +756,12 @@ msgstr "Merci"
 #: forum/actions/user.py:70
 #, python-format
 msgid "You have been penalized in %s reputation points."
-msgstr "Vous avez perdu %s points de réputation."
+msgstr "Vous avez avez perdu %s points de réputation."
+
+#: forum/actions/user.py:82
+#, python-format
+msgid "You have penalized %s in %s reputation points."
+msgstr "Vous avez pénalisé %s de %s points de réputation."
 
 #: forum/actions/user.py:74 forum/actions/user.py:112
 #: forum/templatetags/extra_tags.py:93 forum/views/auth.py:221
@@ -759,7 +782,7 @@ msgstr ""
 msgid ""
 "%(user)s penalised %(users)s in %(value)s reputation points: %(message)s"
 msgstr ""
-"%(user)s a privé %(users)s de %(value)s points de réputation : %(message)s"
+"%(user)s a pénalisé %(users)s de %(value)s points de réputation : %(message)s"
 
 #: forum/actions/user.py:92
 msgid "gave reputation points"
@@ -771,7 +794,7 @@ msgid ""
 "Congratulations, you have been awarded an extra %(points)s reputation "
 "%(points_label)s on <a href=\"%(answer_url)s\">this</a> answer."
 msgstr ""
-"Félicitations, vous avez reçu %(points)s points de réputation supplémentaires "
+"Félicitations, vous avez reçu %(points)s points supplémentaires de réputation "
 "%(points_label)s pour <a href=\"%(answer_url)s\">cette</a> réponse."
 
 #: forum/actions/user.py:107
@@ -788,7 +811,7 @@ msgstr "%(user)s a donné %(value)s points de réputation à %(users)s"
 #: forum/actions/user.py:121
 #, python-format
 msgid "%(user)s penalised %(users)s in %(value)s reputation points"
-msgstr "%(user)s a retiré %(value)s points de réputation à %(users)s"
+msgstr "%(user)s a pénalisé %(users)s de %(value)s de points de réputation"
 
 #: forum/actions/user.py:129
 msgid "was awarded"
@@ -800,17 +823,17 @@ msgid ""
 "Congratulations, you have received a badge '%(badge_name)s'. Check out <a "
 "href=\"%(profile_url)s\">your profile</a>."
 msgstr ""
-"Félicitations, vous avez reçu le badge '%(badge_name)s'. Allez sur <a href="
+"Félicitations, vous avez reçu la distinction « %(badge_name)s ». Consultez <a href="
 "\"%(profile_url)s\">votre profil</a>."
 
 #: forum/actions/user.py:179
 #, python-format
 msgid "%(user)s %(were_was)s awarded the %(badge_name)s badge"
-msgstr "%(user)s %(were_was)s reçu le badge : %(badge_name)s"
+msgstr "%(user)s %(were_was)s reçu la distinction « %(badge_name)s »"
 
 #: forum/actions/user.py:181
 msgid "were"
-msgstr "ont été"
+msgstr "avez"
 
 #: forum/actions/user.py:181
 msgid "was"
@@ -820,14 +843,22 @@ msgstr "a été"
 msgid "suspended"
 msgstr "suspendu"
 
+#: forum/actions/user.py:220
+msgid "%(user)s reported %(reported) : %(msg)s"
+msgstr "%(user)s a signalé %(reported) : %(msg)s"
+
+#: forum/actions/user.py:223 forum/views/users.py:270
+msgid "N/A"
+msgstr "N/A"
+
 #: forum/actions/user.py:204
 msgid "Your suspension has been removed."
-msgstr "Votre bannissement a été retiré."
+msgstr "Votre suspension a été retirée."
 
 #: forum/actions/user.py:208
 #, python-format
 msgid "for %s days"
-msgstr "pour %s jours"
+msgstr "pendant %s jours"
 
 #: forum/actions/user.py:210
 msgid "indefinetely"
@@ -836,7 +867,7 @@ msgstr "indéfiniment"
 #: forum/actions/user.py:212
 #, python-format
 msgid "%(user)s suspended %(users)s %(suspension)s: %(msg)s"
-msgstr "%(user)s a banni %(users)s %(suspension)s: %(msg)s"
+msgstr "%(user)s a suspendu %(users)s %(suspension)s : %(msg)s"
 
 #: forum/actions/user.py:214 forum/views/users.py:241
 msgid "Bad behaviour"
@@ -844,16 +875,16 @@ msgstr "Mauvais comportement"
 
 #: forum/forms/admin.py:16
 msgid "Please input at least one ip address"
-msgstr "Entrez au moins une adresse IP s'il vous plaît"
+msgstr "Veuillez saisir au moins au moins une adresse IP"
 
 #: forum/forms/admin.py:22
 #, python-format
 msgid "Invalid ip address: %s"
-msgstr "Adresse IP invalide : %s"
+msgstr "Adresse IP %s invalide"
 
 #: forum/forms/admin.py:25
 msgid "Please use the dotted quad notation for the ip addresses"
-msgstr "Merci d'utiliser la notation avec points pour noter les adresses IP"
+msgstr "Veuillez utiliser la notation avec points pour les adresses IP"
 
 #: forum/forms/admin.py:32
 msgid "Allow ips"
@@ -864,7 +895,7 @@ msgid ""
 "Comma separated list of ips allowed to access the site while in maintenance"
 msgstr ""
 "Liste séparée par virgules des adresses IP autorisées à accéder au site "
-"pendant la maintenance"
+"pendant sa maintenance"
 
 #: forum/forms/admin.py:37
 #: forum/skins/default/templates/users/karma_bonus.html:9
@@ -873,15 +904,15 @@ msgstr "Message"
 
 #: forum/forms/admin.py:38
 msgid "A message to display to your site visitors while in maintainance mode"
-msgstr "Un message à afficher à vos visiteurs pendant la maintenance"
+msgstr "Message à afficher à vos visiteurs pendant la maintenance"
 
 #: forum/forms/admin.py:43
 msgid "Default"
-msgstr "Défaut"
+msgstr "Par défaut"
 
 #: forum/forms/admin.py:44
 msgid "Default with sidebar"
-msgstr "Défaut avec barre latérale"
+msgstr "Par défaut avec barre latérale"
 
 #: forum/forms/admin.py:45
 msgid "None"
@@ -922,11 +953,11 @@ msgstr "Mode de rendu"
 
 #: forum/forms/admin.py:86
 msgid "Template"
-msgstr "Patron"
+msgstr "Modèle"
 
 #: forum/forms/admin.py:87
 msgid "Sidebar Content"
-msgstr "Contenu de la barre latérale"
+msgstr "Barre latérale"
 
 #: forum/forms/admin.py:88
 msgid "Wrap sidebar block"
@@ -942,15 +973,15 @@ msgstr "Autoriser les commentaires"
 
 #: forum/forms/admin.py:99
 msgid "send validation email"
-msgstr "envoyer un courriel de validation"
+msgstr "Envoyer un courriel de validation"
 
 #: forum/forms/admin.py:104
 msgid "email address"
-msgstr "adresse de courriel"
+msgstr "Adresse courriel"
 
 #: forum/forms/auth.py:21
 msgid "Your account email"
-msgstr "Votre compte de messagerie"
+msgstr "Votre adresse courriel"
 
 #: forum/forms/auth.py:23
 msgid "You cannot leave this field blank"
@@ -958,12 +989,12 @@ msgstr "Ce champ doit être rempli"
 
 #: forum/forms/auth.py:24 forum/forms/general.py:105
 msgid "please enter a valid email address"
-msgstr "Entrez une adresse de courriel valide s'il vous plaît"
+msgstr "Veuillez saisir une adresse courriel valide"
 
 #: forum/forms/auth.py:32
 msgid "Sorry, but this email is not on our database."
 msgstr ""
-"Désolé, mais cette adresse de courriel n'est pas dans notre base de données."
+"Désolé, mais cette adresse courriel n'est pas dans notre base de données."
 
 #: forum/forms/auth.py:40
 msgid "Current password"
@@ -974,29 +1005,29 @@ msgid ""
 "Old password is incorrect.                     Please enter the correct "
 "password."
 msgstr ""
-"L'ancien mot de passe est incorrect. Entrez le bon mot de "
-"passe s'il vous plaît."
+"L'ancien mot de passe est incorrect. Veuillez saisir le bon mot de "
+"passe."
 
 #: forum/forms/general.py:29
 msgid "this field is required"
-msgstr "Ce champ est obligatoire"
+msgstr "ce champ est obligatoire"
 
 #: forum/forms/general.py:42
 msgid "choose a username"
-msgstr "choisissez un nom d'utilisateur"
+msgstr "Choisissez un nom d'utilisateur"
 
 #: forum/forms/general.py:47
 msgid "user name is required"
-msgstr "un nom d'utilisateur est nécessaire"
+msgstr "un nom d'utilisateur est requis"
 
 #: forum/forms/general.py:48
 msgid "sorry, this name is taken, please choose another"
-msgstr "Désolé, ce nom est pris, choisissez-en un autre s'il vous plaît"
+msgstr "Désolé, ce nom est pris. Veuillez en choisir un autre"
 
 #: forum/forms/general.py:49
 msgid "sorry, this name is not allowed, please choose another"
 msgstr ""
-"Désolé, ce nom n'est pas autorisé, choisissez-en un autre s'il vous plaît"
+"Désolé, ce nom n'est pas autorisé. Veuillez en choisir un autre"
 
 #: forum/forms/general.py:50
 msgid "sorry, there is no user with this name"
@@ -1005,63 +1036,70 @@ msgstr "Désolé, il n'y a pas d'utilisateur avec ce nom"
 #: forum/forms/general.py:51
 msgid "sorry, we have a serious error - user name is taken by several users"
 msgstr ""
-"Désolé, nous avons un probleme sérieux - ce nom d'utilisateur est deja "
-"utilisé par plusieurs utilisateurs"
+"Désolé, nous avons un probleme sérieux : ce nom d'utilisateur est déjà"
+"pris par plusieurs utilisateurs"
 
 #: forum/forms/general.py:52
 msgid "user name can only consist of letters, empty space and underscore"
 msgstr ""
-"les nom d'utilisateur ne peut contenir que des lettres, espace ou underscore"
+"un nom d'utilisateur ne peut contenir que des lettres, espace ou underscore"
 
 #: forum/forms/general.py:53
 #, python-format
 msgid "user name is to short, please use at least %d characters"
-msgstr "le nom d'utilisateur doit contenir au moins %d caractères"
+msgstr "un nom d'utilisateur doit contenir au moins %d caractères"
 
 #: forum/forms/general.py:103
 msgid "your email address"
-msgstr "votre adresse de courriel"
+msgstr "Votre adresse courriel"
 
 #: forum/forms/general.py:104
 msgid "email address is required"
-msgstr "une adresse de courriel est nécessaire"
+msgstr "une adresse courriel est requise"
 
 #: forum/forms/general.py:106
 msgid "this email is already used by someone else, please choose another"
 msgstr ""
-"cette adresse courriel est déjà utilisée par quelqu'un d'autre, "
-"merci d'en choisir une autre"
+"cette adresse courriel est déjà utilisée par quelqu'un d'autre. Veuillez en choisir une autre"
+
+#: forum/forms/general.py:131
+msgid "Your real name"
+msgstr "Votre nom véritable"
+
+#: forum/forms/general.py:136
+msgid "Real name is required"
+msgstr "Un nom véritable est requis"
 
 #: forum/forms/general.py:131
 msgid "choose password"
-msgstr "choisissez un mot de passe"
+msgstr "Mot de passe"
 
 #: forum/forms/general.py:132
 msgid "password is required"
-msgstr "mot de passe est requis"
+msgstr "un mot de passe est requis"
 
 #: forum/forms/general.py:135
 msgid "retype password"
-msgstr "re-saisir le mot de passe"
+msgstr "Mot de passe (vérif.)"
 
 #: forum/forms/general.py:136
 msgid "please, retype your password"
-msgstr "veuillez resaisir votre mot de passe"
+msgstr "veuillez saisir à nouveau votre mot de passe"
 
 #: forum/forms/general.py:137
 msgid "sorry, entered passwords did not match, please try again"
 msgstr ""
-"désolé, les mots de passe saisis sont différents, merci d'essayer à nouveau"
+"désolé, les mots de passe saisis sont différents. Veuillez essayer à nouveau"
 
 #: forum/forms/qanda.py:22
 #: forum/skins/default/templates/sidebar/markdown_help.html:12
 #: forum/skins/default/templates/sidebar/markdown_help.html:17
 msgid "title"
-msgstr "titre"
+msgstr "Titre"
 
 #: forum/forms/qanda.py:23
 msgid "please enter a descriptive title for your question"
-msgstr "s'il vous plaît entrez un titre descriptif pour votre question"
+msgstr "Veuillez donner un titre descriptif à votre question"
 
 #: forum/forms/qanda.py:28
 #, python-format
@@ -1075,17 +1113,17 @@ msgstr "contenu"
 #: forum/forms/qanda.py:49
 #, python-format
 msgid "question content must be at least %s characters"
-msgstr "le contenu de la question doit avoir au moins %s caractères"
+msgstr "la question doit contenir au moins %s caractères"
 
 #: forum/forms/qanda.py:60
 #, python-format
 msgid "answer content must be at least %s characters"
-msgstr "le contenu de la réponse doit contenir au moins %s caractères"
+msgstr "la réponse doit contenir au moins %s caractères"
 
 #: forum/forms/qanda.py:71 forum/skins/default/templates/header.html:35
 #: forum/skins/default/templates/search.html:20 forum/views/readers.py:238
 msgid "tags"
-msgstr "mots-clés"
+msgstr "Mots-clés"
 
 #: forum/forms/qanda.py:73
 #, python-format
@@ -1098,13 +1136,13 @@ msgstr ""
 #: forum/forms/qanda.py:89
 #, python-format
 msgid "please use between %(min)s and %(max)s tags"
-msgstr "merci d'utiliser entre %(min)s et %(max)s tags"
+msgstr "veuillez utiliser entre %(min)s et %(max)s mots-clés"
 
 #: forum/forms/qanda.py:95
 #, python-format
 msgid "please use between %(min)s and %(max)s characters in you tags"
 msgstr ""
-"merci d'utiliser entre %(min)s et %(max)s caractères pour les mots-clés"
+"veuillez utiliser entre %(min)s et %(max)s caractères pour les mots-clés"
 
 #: forum/forms/qanda.py:97
 #, fuzzy
@@ -1112,7 +1150,7 @@ msgid ""
 "please use following characters in tags: letters , numbers, and characters "
 "'.-_'"
 msgstr ""
-"merci d'utiliser les caractères suivants dans les mots-clés: lettres, "
+"veuillez utiliser les caractères suivants dans les mots-clés : lettres, "
 " chiffres ou les caractères '.-_'"
 
 #: forum/forms/qanda.py:107
@@ -1121,54 +1159,54 @@ msgid ""
 "You don't have enough reputation to create new tags. The following tags do "
 "not exist yet: %s"
 msgstr ""
-"Votre réputation n'est pas suffisante pour créer un nouveau mot-clé. Les mots-clés suivants "
-"n'existent pas encore: %s"
+"Votre réputation n'est pas suffisante pour créer de nouveaux mots-clés. Les mots-clés suivants "
+"n'existent pas encore : %s"
 
 #: forum/forms/qanda.py:117
 #: forum/skins/default/templates/question_summary_list_roll.html:26
 #: forum/skins/default/templates/question_summary_list_roll.html:38
 msgid "community wiki"
-msgstr "Wik communautaire"
+msgstr "Wiki communautaire"
 
 #: forum/forms/qanda.py:118
 msgid ""
 "if you choose community wiki option, the question and answer do not generate "
 "points and name of author will not be shown"
 msgstr ""
-"Si vous choisissez l'option Wiki communautaire, la question et la réponse ne génèreront "
+"Si vous choisissez l'option « Wiki communautaire », la question et la réponse ne génèreront "
 "pas de points et le nom de l'auteur ne sera pas mentionné"
 
 #: forum/forms/qanda.py:136
 msgid "update summary:"
-msgstr "Résumé (mis à jour):"
+msgstr "Résumé de la modification :"
 
 #: forum/forms/qanda.py:137
 msgid ""
 "enter a brief summary of your revision (e.g. fixed spelling, grammar, "
 "improved style, this field is optional)"
 msgstr ""
-"entrer un bref résumé de votre modification (par exemple l'orthographe "
-"corrigé, la grammaire, le style amélioré, ce champ est facultatif)"
+"Saisissez un bref résumé de votre modification, par exemple « Orthographe "
+"corrigée », « Grammaire corrigée », « Amélioration du style », etc. (ce champ est facultatif)."
 
 #: forum/forms/qanda.py:141
 msgid "Your message:"
-msgstr "Votre message:"
+msgstr "Votre message :"
 
 #: forum/forms/qanda.py:147
 msgid "Your name:"
-msgstr "Votre nom:"
+msgstr "Votre nom :"
 
 #: forum/forms/qanda.py:148
 msgid "Email (not shared with anyone):"
-msgstr "Courriel (privé):"
+msgstr "Adresse courriel (restera confidentielle) :"
 
 #: forum/forms/qanda.py:279
 msgid "this email does not have to be linked to gravatar"
-msgstr "cette adresse de courriel n'a pas besoin d'être relié à un gravatar"
+msgstr "Cette adresse courriel n'a pas besoin d'être liée à un gravatar"
 
 #: forum/forms/qanda.py:280
 msgid "Real name"
-msgstr "Nom"
+msgstr "Nom véritable"
 
 #: forum/forms/qanda.py:281
 msgid "Website"
@@ -1176,7 +1214,7 @@ msgstr "Site Web"
 
 #: forum/forms/qanda.py:282
 msgid "Location"
-msgstr "Localisation"
+msgstr "Lieu"
 
 #: forum/forms/qanda.py:283
 msgid "Date of birth"
@@ -1184,7 +1222,7 @@ msgstr "Date de naissance"
 
 #: forum/forms/qanda.py:283
 msgid "will not be shown, used to calculate age, format: YYYY-MM-DD"
-msgstr "Ne sera pas montré, utilisé pour calculer l'âge, le format: AAAA-MM-JJ"
+msgstr "ne sera pas affiché et ne sera utilisé que pour calculer l'âge (format : AAAA-MM-JJ)"
 
 #: forum/forms/qanda.py:284
 #: forum/skins/default/templates/account_settings.html:21
@@ -1199,15 +1237,15 @@ msgstr "Nom affiché"
 #: forum/forms/qanda.py:316
 msgid "this email has already been registered, please use another one"
 msgstr ""
-"cette adresse de courriel a déjà été enregistrée, choisissez en une autre s'il vous plaît"
+"cette adresse courriel a déjà été enregistrée, veuillez en choisir en une autre"
 
 #: forum/forms/qanda.py:321
 msgid "Instantly"
-msgstr "Immédiatement"
+msgstr "immédiatement"
 
 #: forum/forms/qanda.py:324
 msgid "No notifications"
-msgstr "Aucune notification"
+msgstr "aucune notification"
 
 #: forum/middleware/admin_messages.py:25
 #, python-format
@@ -1222,8 +1260,8 @@ msgstr ""
 "\n"
 "                    Les paramettres de cette communauté ne sont pas encore configurés."
 " Nous vous encourageons fortement à\n"
-"                   le faire depuis la <a href=\"%(email_settings_url)s\">e-"
-" page de paramétrage</a> dès que possible.\n"
+"                   le faire dès que possible depuis la <a href=\"%(email_settings_url)s\">e-"
+" page de configuration</a>.\n"
 "                    "
 
 #: forum/middleware/admin_messages.py:47
@@ -1234,14 +1272,14 @@ msgid ""
 "                    "
 msgstr ""
 "\n"
-"                       Configurez s'il vous plait votre paramètre APP_URL depuis le fichier "
+"                       Veuillez configurer votre paramètre APP_URL depuis le fichier "
 "de paramétrage.\n"
 "                    "
 
 #: forum/middleware/anon_user.py:34
 #, python-format
 msgid "First time here? Check out the <a href=\"%s\">FAQ</a>!"
-msgstr "Première fois ici? Consultez la <a href=\"%s\">FAQ</a> !"
+msgstr "C'est votre première visite ici ? Consultez la <a href=\"%s\">FAQ</a> !"
 
 #: forum/models/action.py:216
 msgid "You"
@@ -1272,12 +1310,12 @@ msgstr "Aucune description disponible"
 
 #: forum/models/node.py:247
 msgid "post"
-msgstr "contribution"
+msgstr "publication"
 
 #: forum/models/page.py:35
 #, python-format
 msgid "[Unpublished] %s"
-msgstr "[non publié] %s"
+msgstr "[Non publié] %s"
 
 #: forum/models/question.py:31
 msgid "[deleted] "
@@ -1305,35 +1343,35 @@ msgstr "répondu-par"
 
 #: forum/models/user.py:214 forum/views/readers.py:138
 msgid "subscribed-by"
-msgstr "s'est inscrit(e)"
+msgstr "souscrit-par"
 
 #: forum/settings/__init__.py:45
 msgid "Badges config"
-msgstr "Configuration des badges"
+msgstr "Distinctions"
 
 #: forum/settings/__init__.py:45
 msgid "Configure badges on your OSQA site."
-msgstr "Configurer les badges de votre site OSQA."
+msgstr "Configurer les distinctions de votre site OSQA."
 
 #: forum/settings/accept.py:5
 msgid "Accepting answers"
-msgstr "Accepter des réponses"
+msgstr "Acceptation des réponses"
 
 #: forum/settings/accept.py:5
 msgid "Settings to tweak the behaviour of accepting answers."
-msgstr "Paramètes pour modifier le système d'acceptation des réponses."
+msgstr "Paramètres pour ajuster le système d'acceptation des réponses."
 
 #: forum/settings/accept.py:8
 msgid "Disallow answers to be accepted"
-msgstr "Ne plus accepter de réponses"
+msgstr "Interdire l'acceptation des réponses"
 
 #: forum/settings/accept.py:9
 msgid ""
 "Disable accepting answers feature. If you re-enable it in the future, "
 "currently accepted answers will still be marked as accepted."
 msgstr ""
-"Désactiver les fonctionalités d'acceptation des réponses. Si vous les ré-activez dans le futur, "
-"les réponses acceptées actuellement seront toujours notées comme acceptées."
+"Si coché, la fonctionalité d'acceptation des réponses sera désactivée. Si vous la réactivez à l'avenir, "
+"les réponses actuellement acceptées seront toujours marquées comme acceptées."
 
 #: forum/settings/accept.py:13
 msgid "Maximum accepted answers per question"
@@ -1342,8 +1380,8 @@ msgstr "Nombre maximal de réponses acceptées par question"
 #: forum/settings/accept.py:14
 msgid "How many accepted answers are allowed per question. Use 0 for no limit."
 msgstr ""
-"Combien de réponses peuvent être acceptées par question. Spécifier 0 pour ne "
-"pas avoir de limite."
+"Nombre de réponses pouvant être acceptées par question. Spécifiez 0 pour ne "
+"pas fixer de limite."
 
 #: forum/settings/accept.py:17
 msgid "Maximum accepted answers per user/question"
@@ -1354,8 +1392,7 @@ msgid ""
 "If more than one accpeted answer is allowed, how many can be accepted per "
 "single user per question."
 msgstr ""
-"Si plus d'une réponse est autorisée, combien est-il possible d'en accepter "
-"pour un même utilisateur ?"
+"Si plus d'une réponse est autorisée, nombre maximal qu'un même utilisateur peut en accepter."
 
 #: forum/settings/accept.py:21
 msgid "Users an accept own answer"
@@ -1364,16 +1401,16 @@ msgstr "Les utilisateurs peuvent accepter leurs propres réponses"
 #: forum/settings/accept.py:22
 msgid "Are normal users allowed to accept their own answers."
 msgstr ""
-"Les utilisateurs normaux ont-ils le droit d'accepter leurs propres réponses."
+"Si coché, les utilisateurs normaux auront le droit d'accepter leurs propres réponses."
 
 #: forum/settings/basic.py:9
 #: forum/skins/default/templates/osqaadmin/djstyle_base.html:67
 msgid "Basic settings"
-msgstr "Parametres de base"
+msgstr "De base"
 
 #: forum/settings/basic.py:9
 msgid "The basic settings for your application"
-msgstr "Paramètres de base pour votre application"
+msgstr "Réglages de base pour votre application"
 
 #: forum/settings/basic.py:12
 msgid "Application logo"
@@ -1381,7 +1418,7 @@ msgstr "Logo de l'application"
 
 #: forum/settings/basic.py:13
 msgid "Your site main logo."
-msgstr "Logo principal du site"
+msgstr "Logo principal du site."
 
 #: forum/settings/basic.py:17
 msgid "Favicon"
@@ -1389,7 +1426,7 @@ msgstr "Favicon"
 
 #: forum/settings/basic.py:18
 msgid "Your site favicon."
-msgstr "Favicon de votre site."
+msgstr "Favicon du site."
 
 #: forum/settings/basic.py:22
 msgid "Application title"
@@ -1397,8 +1434,11 @@ msgstr "Titre de l'application"
 
 #: forum/settings/basic.py:23
 msgid "The title of your application that will show in the browsers title bar"
-msgstr ""
-"Le titre de votre application (qui apparaîtra dans la barre de navigation)"
+msgstr "Titre de l'application qui apparaîtra dans la barre de titre des navigateurs."
+
+#: forum/settings/basic.py:2
+msgid "The short name for your application that will show up in many places."
+msgstr "Titre court de l'application qui apparaîtra à plusieurs endroits."
 
 #: forum/settings/basic.py:26
 msgid "Application short name"
@@ -1410,7 +1450,7 @@ msgstr "Mots-clés de l'application"
 
 #: forum/settings/basic.py:31
 msgid "The meta keywords that will be available through the HTML meta tags."
-msgstr "Les meta tags qui seront disponibles à travers les mots-clés meta HTML."
+msgstr "Méta mots-clés qui seront disponibles à travers les méta mots-clés HTML."
 
 #: forum/settings/basic.py:34
 msgid "Application description"
@@ -1418,7 +1458,7 @@ msgstr "Description de l'application"
 
 #: forum/settings/basic.py:35
 msgid "The description of your application"
-msgstr "La description de votre application"
+msgstr "Description de votre application"
 
 #: forum/settings/basic.py:39
 msgid "Copyright notice"
@@ -1426,7 +1466,7 @@ msgstr "Droits d'auteur"
 
 #: forum/settings/basic.py:40
 msgid "The copyright notice visible at the footer of your page."
-msgstr "Copyright visible au bas de votre page."
+msgstr "Droits d'auteur visibles au bas de votre page."
 
 #: forum/settings/basic.py:43
 msgid "Support URL"
@@ -1437,7 +1477,7 @@ msgid ""
 "The URL provided for users to get support. It can be http: or mailto: or "
 "whatever your preferred support scheme is."
 msgstr ""
-"L'URL fournit aux utilisateurs pour obtenir de l'aide. cela peut être http: ou mailto: ou "
+"URL fournie aux utilisateurs pour obtenir de l'aide. Cela peut être « http: » ou « mailto: » ou "
 "tout autre sytème de votre choix."
 
 #: forum/settings/basic.py:48
@@ -1449,25 +1489,25 @@ msgid ""
 "The URL provided for users to contact you. It can be http: or mailto: or "
 "whatever your preferred contact scheme is."
 msgstr ""
-"L'URL fournit aux utilisateurs pour vous contacter. cela peut être http: ou mailto: ou "
+"URL fournie aux utilisateurs pour vous contacter. Cela peut être « http: » ou « mailto: » ou "
 "tout autre sytème de votre choix."
 
 #: forum/settings/email.py:7
 msgid "Email settings"
-msgstr "Paramètres de courriel"
+msgstr "Courriel"
 
 #: forum/settings/email.py:7
 msgid "Email server and other email related settings."
 msgstr ""
-"Les paramètres du serveur de courriel et autres messages électroniques connexes."
+"Réglages du serveur courriel et autres réglages liés au courriel."
 
 #: forum/settings/email.py:10
 msgid "E-Mail settings test"
-msgstr "Test des paramètres de courriel"
+msgstr "Test des réglages courriel"
 
 #: forum/settings/email.py:11
 msgid "Test the current E-Mail configuration."
-msgstr "Test de la configuration de courriel courante."
+msgstr "Test de la configuration actuelle du courriel."
 
 #: forum/settings/email.py:16
 msgid "Email Server"
@@ -1475,7 +1515,7 @@ msgstr "Serveur de courriel"
 
 #: forum/settings/email.py:17
 msgid "The SMTP server through which your application will be sending emails."
-msgstr "Le serveur SMTP à travers lequel votre application enverra les courriels"
+msgstr "Serveur SMTP à travers lequel votre application enverra les courriels"
 
 #: forum/settings/email.py:21
 msgid "Email Port"
@@ -1485,23 +1525,24 @@ msgstr "Port pour le courriel"
 msgid ""
 "The port on which your SMTP server is listening to. Usually this is 25, but "
 "can be something else."
-msgstr "Le port qui écoute votre serveur SMTP. C'est normalement le port 25 mais cela peut en être un autre."
+msgstr "Port qui écoute votre serveur SMTP. C'est normalement le port 25 mais "
+"cela peut en être un autre."
 
 #: forum/settings/email.py:26
 msgid "Email User"
-msgstr "Utilisateur pour le courriel"
+msgstr "Courriel de l'utilisateur"
 
 #: forum/settings/email.py:27
 msgid "The username for your SMTP connection."
-msgstr "L'identifiant de votre connexion SMTP."
+msgstr "Identifiant de votre connexion SMTP."
 
 #: forum/settings/email.py:31
 msgid "Email Password"
-msgstr "Envoi du mot de passe par courriel"
+msgstr "Mot de passe du courriel"
 
 #: forum/settings/email.py:32
 msgid "The password for your SMTP connection."
-msgstr "Le mot de passe pour votre connexion SMTP."
+msgstr "Mot de passe pour votre connexion SMTP."
 
 #: forum/settings/email.py:37
 msgid "Use TLS"
@@ -1509,18 +1550,30 @@ msgstr "Utiliser TLS"
 
 #: forum/settings/email.py:38
 msgid "Whether to use TLS for authentication with your SMTP server."
-msgstr "S'il faut utiliser l'authentification TLS pour le serveur SMTP."
+msgstr "Si coché, TLS sera utilisé pour l'authentification sur le serveur SMTP."
 
 #: forum/settings/email.py:42
 msgid "Site 'from' Email Address"
-msgstr "Adresse du site présenté dans 'from/de' des courriels"
+msgstr "Adresse courriel du site pour le champ « From »"
 
 #: forum/settings/email.py:43
 msgid ""
 "The address that will show up on the 'from' field on emails sent by your "
 "website."
 msgstr ""
-"L'adresse qui apparaîtra sur le champ 'From' sur les courriels envoyés par "
+"Adresse qui apparaîtra sur le champ « From » sur les courriels envoyés par "
+"votre site."
+
+#: forum/settings/email.py:47
+msgid "Site 'reply-to' Email Address"
+msgstr "Adresse courriel du site pour le champ « Reply-to »"
+
+#: forum/settings/email.py:48
+msgid ""
+"The address that will show up on the 'reply-to' field on emails sent by your "
+"website."
+msgstr ""
+"Adresse qui apparaîtra sur le champ « Reply-to » sur les courriels envoyés par "
 "votre site."
 
 #: forum/settings/email.py:47
@@ -1534,9 +1587,9 @@ msgid ""
 "string. It's usually a good idea to have such a prefix so your users can "
 "easily set up a filter on theyr email clients."
 msgstr ""
-"Chaque courriel envoyé depuis votre site aura ce prefixe avant le sujet avec cette  "
-"chaine de caractères. C'est en général une bonne idée d'avoir ce type de préfixe"
-"de manière à ce que les utilisateurs puisse facilement mettre un filtre sur leur "
+"Chaque courriel envoyé depuis votre site aura un sujet préfixé avec cette  "
+"chaine de caractères. C'est en général une bonne idée d'avoir ce type de préfixe "
+"de manière à ce que les utilisateurs puissent facilement mettre un filtre sur leur "
 "client de messagerie."
 
 #: forum/settings/email.py:52
@@ -1549,9 +1602,9 @@ msgid ""
 "of the organization running the website. See <a href=\"http://en.wikipedia."
 "org/wiki/CAN-SPAM_Act_of_2003\">this Wikipedia article</a> for more info."
 msgstr ""
-"Texte de bas de page courriel, généralement respect \"CAN SPAM\", ou l'adresse physique "
+"Texte de bas de page courriel, généralement respectant \"CAN SPAM\", ou adresse physique "
 "de l'organisation qui gère le site. Voir <a href=\"http://en.wikipedia."
-"org/wiki/CAN-SPAM_Act_of_2003\">cet article wikipedia (anglais)</a> pour plus d'information."
+"org/wiki/CAN-SPAM_Act_of_2003\">cet article wikipédia (anglais)</a> pour plus d'information."
 
 #: forum/settings/email.py:57
 msgid "Email Border Color"
@@ -1559,23 +1612,43 @@ msgstr "Couleur de bordure dans le courriel"
 
 #: forum/settings/email.py:58
 msgid "The outter border color of the email base template"
-msgstr "Couleur de bordure dans le patron d'envoi de courriel"
+msgstr "Couleur de bordure dans le modèle d'envoi courriels"
 
 #: forum/settings/email.py:62
 msgid "Email Paragraph Style"
-msgstr "Style des paragraphes dans le courriel"
+msgstr "Style des paragraphes dans les courriels"
 
 #: forum/settings/email.py:63
 msgid "A valid css string to be used to style email paragraphs (the P tag)."
-msgstr "Une chaîne CSS valide pour être utilisée dans les paragraphes dans les courriels (la balise P)"
+msgstr "Chaîne CSS valide à utiliser dans les paragraphes des courriels (balise « P »)"
 
 #: forum/settings/email.py:67
 msgid "Email Link Style"
-msgstr "Style des liens dans le courriel"
+msgstr "Style des liens dans les courriels"
 
 #: forum/settings/email.py:68
 msgid "A valid css string to be used to style email links (the A tag)."
-msgstr "Une chaîne CSS valide pour être utilisée dans les liens dans les courriels (la balise A)"
+msgstr "Chaîne CSS valide à utiliser dans les liens des courriels (balise « A »)"
+
+#: forum/settings/email.py:77
+msgid "Send digest only to active users"
+msgstr "Courriels groupés seulement aux utilisateurs actifs"
+
+#: forum/settings/email.py:78
+msgid ""
+"If checked the daily digest won't be sent to users that have been suspended."
+msgstr "Si coché, les courriels groupés ne seront pas envoyés aux utilisateurs suspendus."
+
+#: forum/settings/email.py:82
+msgid "Send digest only to validated users"
+msgstr "Courriels groupés seulement aux utilisateurs validés"
+
+#: forum/settings/email.py:83
+msgid ""
+"If checked the daily digest won't be sent to users that haven't validated "
+"their emails."
+msgstr "Si coché, les courriels groupés ne seront pas envoyés aux utilisateurs "
+"qui n'ont pas validé leur adresse courriel."
 
 #: forum/settings/extkeys.py:4
 msgid "External Keys"
@@ -1585,7 +1658,7 @@ msgstr "Clés externes"
 msgid ""
 "Keys for various external providers that your application may optionally use."
 msgstr ""
-"Les clés pour les différents prestataires externes que votre application "
+"Clés pour les différents prestataires externes que votre application "
 "peut éventuellement utiliser."
 
 #: forum/settings/extkeys.py:7
@@ -1597,12 +1670,12 @@ msgid ""
 "This is the code you get when you register your site at <a href='https://www."
 "google.com/webmasters/tools/'>Google webmaster central</a>."
 msgstr ""
-"C'est le code obtenu lorsque vous enregistrez votre site sur <a "
-"href='https://www.google.com/webmasters/tools/'>Google webmaster central</a>."
+"Ceci est le code obtenu lorsque vous enregistrez votre site sur la <a "
+"href='https://www.google.com/webmasters/tools/'>Search Console</a> de Google."
 
 #: forum/settings/extkeys.py:12
 msgid "Google analytics key"
-msgstr "Clé Google analytics"
+msgstr "Clé de Google Analytics"
 
 #: forum/settings/extkeys.py:13
 msgid ""
@@ -1610,15 +1683,47 @@ msgid ""
 "com/analytics/'>Google analytics official website</a>"
 msgstr ""
 "Votre clé Google Analytics. Vous pouvez en obtenir une sur le <a "
-"href='http://www.google.com/analytics/'>site officiel de Google Analytics</a>"
+"href='http://www.google.com/analytics/'>site officiel de Google Analytics</a>."
+
+#: forum/settings/faq.py:5
+msgid "FAQ page"
+msgstr "Page de la FAQ"
+
+#: forum/settings/faq.py:78
+msgid "FAQ page text"
+msgstr "Texte de la page de la FAQ"
+
+#: forum/settings/faq.py:79
+msgid "The faq page."
+msgstr "Page de la FAQ"
+
+#: forum/settings/faq.py:5
+msgid "About page"
+msgstr "Page « À propos »"
+
+#: forum/settings/about.py:5
+msgid ""
+"Define the text in the about page. You can use markdown and some basic html tags."
+msgstr "Saisissez le texte de la page « À propos ». Vous pouvez utiliser Markdown "
+"et quelques balises HTML de base."
+
+#: forum/settings/about.py:25
+msgid "About page text"
+msgstr "Texte de la page « À propos »"
+
+#: forum/settings/about.py:26
+msgid "\n"
+"The about page.\n"
+msgstr "\n"
+"Page « À propos ».\n"
 
 #: forum/settings/form.py:5
 msgid "Form settings"
-msgstr "Paramètres de formulaire"
+msgstr "Formulaires"
 
 #: forum/settings/form.py:5
 msgid "General settings for the OSQA forms."
-msgstr "Paramètres généraux pour les formulaires OSQA."
+msgstr "Réglages généraux pour les formulaires OSQA."
 
 #: forum/settings/form.py:8
 msgid "Enable community wiki"
@@ -1626,8 +1731,7 @@ msgstr "Activer le Wiki de la communauté"
 
 #: forum/settings/form.py:9
 msgid "Can questions or answers be marked as community wiki."
-msgstr ""
-"Les questions et les réponses peuvent-elles être marquées comme page de Wiki "
+msgstr "Les questions et les réponses peuvent-elles être marquées comme page de Wiki "
 "de la communauté."
 
 #: forum/settings/form.py:13
@@ -1638,20 +1742,20 @@ msgstr "Limiter la création de mots-clés"
 msgid ""
 "Limit tag creation to super users, staff or users with a minimum reputation."
 msgstr ""
-"Limiter la création de mot-clés aux super utilisateurs, à l'équipe ou aux "
+"Limiter la création des mot-clés aux super utilisateurs, à l'équipe ou aux "
 "utilisateurs avec un minimum de réputation."
 
 #: forum/settings/form.py:20
 msgid "Minimum number of characters for a question's title"
-msgstr "Nombre minimum de caractères requis pour le titre d'une question"
+msgstr "Nombre minimum de caractères pour le titre d'une question"
 
 #: forum/settings/form.py:21
 msgid ""
 "The minimum number of characters a user must enter into the title field of a "
 "question."
 msgstr ""
-"Le nombre de caractères minimum qu'un utilisateur doit rentrer dans le "
-"champ titre d'une question."
+"Nombre de caractères minimum qu'un utilisateur doit saisir dans le "
+"champ « Titre » d'une question."
 
 #: forum/settings/form.py:28
 msgid "Minimum number of characters for a question's content"
@@ -1662,8 +1766,8 @@ msgid ""
 "The minimum number of characters a user must enter into the content field of "
 "a question."
 msgstr ""
-"Le nombre de caractères minimum qu'un utilisateur doit rentrer dans le "
-"champ contenu d'une question."
+"Nombre de caractères minimum qu'un utilisateur doit saisir dans le "
+"champ « Contenu » d'une question."
 
 #: forum/settings/form.py:36
 msgid "Empty question content"
@@ -1671,7 +1775,7 @@ msgstr "Contenu vide d'une question"
 
 #: forum/settings/form.py:37
 msgid "If a question's content can be empty."
-msgstr "Si une question peut être vide."
+msgstr "Si le contenu d'une question peut être vide."
 
 #: forum/settings/form.py:45
 msgid "Required number of tags per question"
@@ -1679,7 +1783,7 @@ msgstr "Nombre requis de mots-clés par question"
 
 #: forum/settings/form.py:46
 msgid "How many tags are required in questions."
-msgstr "Combien de mots-clés sont requis dans les questions."
+msgstr "Nombre de mots-clés sont requis dans les questions."
 
 #: forum/settings/form.py:50
 msgid "Maximum number of tags per question"
@@ -1687,15 +1791,15 @@ msgstr "Nombre maximum de mots-clés par question"
 
 #: forum/settings/form.py:51
 msgid "How many tags are allowed in questions."
-msgstr "Combien de mots-clés sont autorisés dans les questions."
+msgstr "Nombre de mots-clés sont autorisés dans les questions."
 
 #: forum/settings/form.py:55
 msgid "Minimum length of a tag"
-msgstr "Taille minimale d'un mot-clé"
+msgstr "Longueur minimale d'un mot-clé"
 
 #: forum/settings/form.py:56
 msgid "How short a tag can be."
-msgstr "Longueur minimale d'un mot-clé."
+msgstr "Quelle longueur au moins doit avoir un mot-clé."
 
 #: forum/settings/form.py:60
 msgid "Maximum length of a tag"
@@ -1703,7 +1807,7 @@ msgstr "Longueur maximale d'un mot-clé"
 
 #: forum/settings/form.py:61
 msgid "How long a tag can be."
-msgstr "Quelle longueur peut avoir un mot-clé."
+msgstr "Quelle longueur au plus peut avoir un mot-clé."
 
 #: forum/settings/form.py:69
 msgid "Minimum number of characters for a comment"
@@ -1714,7 +1818,7 @@ msgid ""
 "The minimum number of characters a user must enter into the body of a "
 "comment."
 msgstr ""
-"Le nombre de caractères minimum qu'un utilisateur doit rentrer pour le corps "
+"Nombre de caractères minimum qu'un utilisateur doit saisir pour le corps "
 "d'un commentaire."
 
 #: forum/settings/form.py:73
@@ -1725,7 +1829,7 @@ msgstr "Longueur maximale d'un commentaire"
 msgid ""
 "The maximum number of characters a user can enter into the body of a comment."
 msgstr ""
-"Le nombre maximal de caractères qu'un utilisateur peut entrer dans le corps "
+"Nombre maximal de caractères qu'un utilisateur peut saisir dans le corps "
 "d'un commentaire."
 
 #: forum/settings/form.py:77
@@ -1738,11 +1842,11 @@ msgstr "Autoriser tous les utilisateurs à utiliser des votes négatifs dans les
 
 #: forum/settings/form.py:82
 msgid "Show author gravatar in comments"
-msgstr "Afficher le Gravatar des auteurs dans les commentaires"
+msgstr "Afficher le gravatar des auteurs dans les commentaires"
 
 #: forum/settings/form.py:83
 msgid "Show the gravatar image of a comment author."
-msgstr "Afficher l'image Gravatar de l'auteur d'un commentaire."
+msgstr "Afficher l'image gravatar de l'auteur d'un commentaire."
 
 #: forum/settings/forms.py:53
 msgid "context"
@@ -1754,11 +1858,11 @@ msgstr "défaut"
 
 #: forum/settings/forms.py:66
 msgid "Change this:"
-msgstr "Changer cela:"
+msgstr "Changer cela :"
 
 #: forum/settings/minrep.py:4
 msgid "Minimum reputation config"
-msgstr "Configuration de la réputation minimale"
+msgstr "Réputations minimales"
 
 #: forum/settings/minrep.py:4
 msgid ""
@@ -1770,32 +1874,32 @@ msgstr ""
 
 #: forum/settings/minrep.py:7
 msgid "Show captcha if user with less reputation than"
-msgstr "Montrer le captcha si la réputation de l'utilisateur est plus faible que"
+msgstr "Réputation minimale requise pour que le captcha ne soit pas affiché"
 
 #: forum/settings/minrep.py:8
 msgid ""
 "If the user has less reputation, captcha is used to when adding new content."
-msgstr "Si l'utilisateur a une réputation plus faible, le captcha est utilisé lors de l'ajout d'un contenu."
+msgstr "Réputation minimale qu'un utilisateur doit avoir pour que le captcha ne soit pas utilisé lors de l'ajout d'un contenu."
 
 #: forum/settings/minrep.py:11
 msgid "Minimum reputation to vote up"
-msgstr "Réputation minimale nécessaire pour voter favorablement"
+msgstr "Réputation minimale requise pour voter favorablement"
 
 #: forum/settings/minrep.py:12
 msgid "The minimum reputation an user must have to be allowed to vote up."
 msgstr ""
-"La réputation minimale requise par un utilisateur pour avoir le droit de "
-"voter pour."
+"Réputation minimale qu'un utilisateur doit avoir pour pouvoir "
+"voter favorablement."
 
 #: forum/settings/minrep.py:15
 msgid "Minimum reputation to vote down"
-msgstr "Réputation minimale requise pour voter contre"
+msgstr "Réputation minimale requise pour voter défavorablement"
 
 #: forum/settings/minrep.py:16
 msgid "The minimum reputation an user must have to be allowed to vote down."
 msgstr ""
-"La réputation minimale requise par un utilisateur pour avoir le droit de "
-"voter contre."
+"Réputation minimale qu'un utilisateur doit avoir pour pouvoir "
+"voter défavorablement."
 
 #: forum/settings/minrep.py:19
 msgid "Minimum reputation to flag a post"
@@ -1804,7 +1908,7 @@ msgstr "Réputation minimale requise pour signaler un message"
 #: forum/settings/minrep.py:20
 msgid "The minimum reputation an user must have to be allowed to flag a post."
 msgstr ""
-"La réputation minimale requise par un utilisateur pour avoir le droit de "
+"Réputation minimale qu'un utilisateur doit avoir pour pouvoir "
 "signaler un message."
 
 #: forum/settings/minrep.py:23
@@ -1815,7 +1919,7 @@ msgstr "Réputation minimale requise pour pouvoir effectuer un commentaire"
 msgid ""
 "The minimum reputation an user must have to be allowed to comment a post."
 msgstr ""
-"La réputation minimale requise par un utilisateur pour avoir le droit de "
+"Réputation minimale qu'un utilisateur doit avoir pour pouvoir "
 "commenter un message."
 
 #: forum/settings/minrep.py:27
@@ -1826,8 +1930,8 @@ msgstr "Réputation minimale requise pour pouvoir apprécier un commentaire"
 msgid ""
 "The minimum reputation an user must have to be allowed to \"like\" a comment."
 msgstr ""
-"La réputation minimale requise par un utilisateur pour avoir le droit "
-"d'apprécier un commentaire."
+"Réputation minimale qu'un utilisateur doit avoir pour pouvoir "
+"apprécier un commentaire."
 
 #: forum/settings/minrep.py:31
 msgid "Minimum reputation to upload"
@@ -1837,104 +1941,114 @@ msgstr "Réputation minimale requise pour téléverser"
 msgid ""
 "The minimum reputation an user must have to be allowed to upload a file."
 msgstr ""
-"La réputation minimale requise par un utilisateur pour avoir le droit "
-"d'envoyer un fichier."
+"Réputation minimale qu'un utilisateur doit avoir pour pouvoir "
+"envoyer un fichier."
 
 #: forum/settings/minrep.py:35
 msgid "Minimum reputation to create tags"
-msgstr "La réputation minimale requise pour pouvoir créer des étiquettes"
+msgstr "Réputation minimale requise pour pouvoir créer des étiquettes"
 
 #: forum/settings/minrep.py:36
 msgid ""
 "The minimum reputation an user must have to be allowed to create new tags."
 msgstr ""
-"La réputation minimale requise par un utilisateur pour avoir le droit de "
-"créer de nouvelles étiquettes."
+"Réputation minimale qu'un utilisateur doit avoir pour pouvoir "
+"créer de nouveaux mots-clés."
 
 #: forum/settings/minrep.py:39
 msgid "Minimum reputation to close own question"
-msgstr "Réputation minimale pour pouvoir fermer sa propre question"
+msgstr "Réputation minimale requise pour pouvoir fermer sa propre question"
 
 #: forum/settings/minrep.py:40
 msgid ""
 "The minimum reputation an user must have to be allowed to close his own "
 "question."
 msgstr ""
-"La réputation minimale requise par un utilisateur pour avoir le droit de "
+"Réputation minimale qu'un utilisateur doit avoir pour pouvoir "
 "fermer sa propre question."
+
+#: forum/settings/minrep.py:43
+msgid "Unify close and reopen permissions"
+msgstr "Unifier les permissions de fermeture et de réouverture"
+
+#: forum/settings/minrep.py:44
+msgid ""
+"If checked the same permissions as the ones to close question will be "
+"required to reopen it."
+msgstr "Si coché, les mêmes permissions que pour fermer les questions seront "
+"requises pour les réouvrir."
 
 #: forum/settings/minrep.py:43
 msgid "Minimum reputation to reopen own question"
 msgstr ""
-"La réputation minimale requise pour pouvoir ouvrir à nouveau sa propre "
-"question"
+"Réputation minimale requise pour pouvoir réouvrir sa propre question"
 
 #: forum/settings/minrep.py:44
 msgid ""
 "The minimum reputation an user must have to be allowed to reopen his own "
 "question."
 msgstr ""
-"La réputation minimale requise par un utilisateur pour avoir le droit "
-"d'ouvrir à nouveau sa propre question."
+"Réputation minimale qu'un utilisateur doit avoir pour pouvoir "
+"réouvrir sa propre question."
 
 #: forum/settings/minrep.py:47
 msgid "Minimum reputation to retag others questions"
-msgstr "Réputation minimale pour ré-étiqueter d'autres questions"
+msgstr "Réputation minimale requise pour modifier les mots-clés d'autres questions"
 
 #: forum/settings/minrep.py:48
 msgid ""
 "The minimum reputation an user must have to be allowed to retag others "
 "questions."
 msgstr ""
-"La réputation minimale requise par un utilisateur pour avoir le droit "
-"d'étiqueter à nouveau d'autres questions."
+"Réputation minimale qu'un utilisateur doit avoir pour pouvoir "
+"de modifier les mots-clés d'autres questions."
 
 #: forum/settings/minrep.py:51
 msgid "Minimum reputation to edit wiki posts"
-msgstr "Réputation minimale requise pour éditer des messages wiki"
+msgstr "Réputation minimale requise pour éditer des publications wiki"
 
 #: forum/settings/minrep.py:52
 msgid ""
 "The minimum reputation an user must have to be allowed to edit community "
 "wiki posts."
 msgstr ""
-"La réputation minimale requise par un utilisateur pour avoir le droit de "
-"modifier des sujets du Wiki communautaire."
+"Réputation minimale qu'un utilisateur doit avoir pour pouvoir "
+"modifier des publications du wiki communautaire."
 
 #: forum/settings/minrep.py:55
 msgid "Minimum reputation to mark post as community wiki"
 msgstr ""
-"La réputation minimale requise pour marquer un sujet comme Wiki communautaire"
+"Réputation minimale requise pour marquer une publication comme wiki communautaire"
 
 #: forum/settings/minrep.py:56
 msgid ""
 "The minimum reputation an user must have to be allowed to mark a post as "
 "community wiki."
 msgstr ""
-"La réputation minimale requise par un utilisateur pour avoir le droit de "
-"marquer un sujet comme Wiki communautaire."
+"Réputation minimale qu'un utilisateur doit avoir pour pouvoir "
+"marquer une publication comme wiki communautaire."
 
 #: forum/settings/minrep.py:59
 msgid "Minimum reputation to edit others posts"
-msgstr "Réputation minimale pour modifier les messages des autres"
+msgstr "Réputation minimale requise pour modifier les publications des autres"
 
 #: forum/settings/minrep.py:60
 msgid ""
 "The minimum reputation an user must have to be allowed to edit others posts."
 msgstr ""
-"La réputation minimale requise par un utilisateur pour avoir le droit de "
-"modifier les sujets des autres."
+"Réputation minimale qu'un utilisateur doit avoir pour pouvoir "
+"modifier les publications des autres."
 
 #: forum/settings/minrep.py:63
 msgid "Minimum reputation to close others posts"
-msgstr "Réputation minimale pour fermer d'autres sujets"
+msgstr "Réputation minimale requise pour fermer les publications des autres"
 
 #: forum/settings/minrep.py:64
 msgid ""
 "The minimum reputation an user must have to be allowed to close others posts."
 msgstr ""
-"La réputation minimale requise par un utilisateur pour avoir le droit de "
-"fermer les sujets des autres."
+"Réputation minimale qu'un utilisateur doit avoir pour pouvoir "
+"fermer les publications des autres."
 
 #: forum/settings/minrep.py:67
 msgid "Minimum reputation to delete comments"
@@ -1944,46 +2058,46 @@ msgstr "Réputation minimale requise pour supprimer les commentaires"
 msgid ""
 "The minimum reputation an user must have to be allowed to delete comments."
 msgstr ""
-"La réputation minimale requise par un utilisateur pour avoir le droit "
-"d'effacer des commentaires."
+"Réputation minimale qu'un utilisateur doit avoir pour pouvoir "
+"supprimer des commentaires."
 
 #: forum/settings/minrep.py:71
 msgid "Minimum reputation to convert answers to comment"
 msgstr ""
-"La réputation minimale requise pour transformer les réponses en commentaires"
+"Réputation minimale requise pour transformer les réponses en commentaires"
 
 #: forum/settings/minrep.py:72
 msgid ""
 "The minimum reputation an user must have to be allowed to convert an answer "
 "into a comment."
 msgstr ""
-"La réputation minimale requise par un utilisateur pour avoir le droit de "
+"Réputation minimale qu'un utilisateur doit avoir pour avoir le droit de "
 "transformer une réponse en commentaire."
 
 #: forum/settings/minrep.py:75
 msgid "Minimum reputation to convert comments to answers"
 msgstr ""
-"La réputation minimale requise pour convertir des commentaires en questions"
+"Réputation minimale requise pour convertir des commentaires en questions"
 
 #: forum/settings/minrep.py:76
 msgid ""
 "The minimum reputation an user must have to be allowed to convert comments "
 "into an answer."
 msgstr ""
-"La réputation minimale requise par un utilisateur pour avoir le droit de "
+"Réputation minimale requise par un utilisateur pour avoir le droit de "
 "transformer une réponse en commentaire."
 
 #: forum/settings/minrep.py:79
 msgid "Minimum reputation to convert answers to questions"
 msgstr ""
-"La réputation minimale requise pour transformer les réponses en questions"
+"Réputation minimale requise pour transformer les réponses en questions"
 
 #: forum/settings/minrep.py:80
 msgid ""
 "The minimum reputation an user must have to be allowed to convert an answer "
 "into a question."
 msgstr ""
-"La réputation minimale requise par un utilisateur pour avoir le droit de "
+"Réputation minimale requise par un utilisateur pour avoir le droit de "
 "transformer une réponse en question."
 
 #: forum/settings/minrep.py:83
@@ -1993,16 +2107,49 @@ msgstr "Réputation minimale requise pour voir les signalements offensants"
 #: forum/settings/minrep.py:84
 msgid "The minimum reputation an user must have to view offensive flags."
 msgstr ""
-"La réputation minimale requise par un utilisateur pour avoir le droit de "
+"Réputation minimale requise par un utilisateur pour avoir le droit de "
 "voir des signalements offensants."
 
 #: forum/settings/moderation.py:7
 msgid "Moderation settings"
-msgstr "Paramètres de modération"
+msgstr "Modération"
 
 #: forum/settings/moderation.py:7
 msgid "Define the moderation workflow of your site"
 msgstr "Définit le flux de travail de modération de votre site"
+
+#: forum/settings/moderation.py:11
+msgid "Use canned comments"
+msgstr "Utiliser des commentaires préparés"
+
+#: forum/settings/moderation.py:12
+msgid ""
+"If you check, the canned comments feature will be activated, allowing "
+"moderators to use canned patterns for their comments."
+msgstr "Si coché, la fonctionnalité des commentaires préparés sera activée, "
+"permettant aux modérateurs d'utiliser des motifs tout prêts pour leurs commentaires."
+
+#: forum/settings/moderation.py:20
+msgid "Canned comments"
+msgstr "Commentaires préparés"
+
+#: forum/settings/moderation.py:21
+msgid ""
+"\n"
+"<p>Create some canned comments to be used for easier moderation. You can "
+"access the {{ post }} and {{ settings }} variables.</p>\n"
+"<p>If you want to access the current post author username you can use "
+"{{ post.author }}, for the question title use {{ post.title }}.</p>\n"
+"<p>To get the application title use {{ settings.APP_TITLE }}. All settings "
+"are accessible through the settings object.</p>\n"
+msgstr ""
+"\n"
+"<p>Créez quelques commentaires préparés à utiliser pour faciliter la modération. Vous pouvez "
+"accéder aux variables {{ post }} et {{ settings }}.</p>\n"
+"<p>Si vous voulez accéder au nom de l'utilisatur de la publication en cours, vous pouvez "
+"utiliser {{ post.author }} et, pour le titre de la question title, utilisez {{ post.title }}.</p>\n"
+"<p>Pour obtenir le titre de l'application title, utilisez {{ settings.APP_TITLE }}. "
+"Tous les réglages sont accessibles via l'objet de réglage.</p>\n"
 
 #: forum/settings/moderation.py:13
 msgid "Flag Reasons"
@@ -2011,7 +2158,7 @@ msgstr "Raisons du signalement"
 #: forum/settings/moderation.py:14
 msgid "Create some flag reasons to use in the flag post popup."
 msgstr ""
-"Créer quelques raisons de signalement à utiliser dans la fenêtre de "
+"Créez quelques raisons de signalement à utiliser dans la fenêtre de "
 "signalement des messages."
 
 #: forum/settings/moderation.py:22
@@ -2021,17 +2168,34 @@ msgstr "Raisons de fermeture"
 #: forum/settings/moderation.py:23
 msgid "Create some close reasons to use in the close question popup."
 msgstr ""
-"Créer quelques raisons de fermeture à utiliser dans la fenêtre de fermeture "
+"Créez quelques raisons de fermeture à utiliser dans la fenêtre de fermeture "
 "des questions."
+
+#: forum/settings/moderation.py:48
+msgid "Position it in the \"More\" menu"
+msgstr "dans le menu « Plus »."
+
+#: forum/settings/moderation.py:49
+msgid "Position it in main controls"
+msgstr "dans les contrôles principaux."
+
+#: forum/settings/moderation.py:53
+msgid "Position of report control"
+msgstr "Position du contrôle de signalement"
+
+#: forum/settings/moderation.py:54
+msgid "Choose the position of the \"report (0)\" control of nodes."
+msgstr "Choisissez la position du contrôle « signalement » des nœuds."
 
 #: forum/settings/repgain.py:4
 msgid "Reputation gains and losses config"
-msgstr "Réglages de gains et pertes de réputation"
+msgstr "Gains et pertes de réputation"
 
 #: forum/settings/repgain.py:4
 msgid ""
 "Configure the reputation points a user may gain or lose upon certain actions."
-msgstr """Configurer les points de réputation qu'un utilisateur peut gagner ou perdre sur "
+msgstr ""
+"Configurer les points de réputation qu'un utilisateur peut gagner ou perdre sur "
 "certaines actions."
 
 #: forum/settings/repgain.py:7
@@ -2040,15 +2204,13 @@ msgstr "Réputation initiale"
 
 #: forum/settings/repgain.py:8
 msgid "The initial reputation an user gets when he first signs in."
-msgstr ""
-"La réputation de départ d'un utilisateur lorsqu'il s'identifie pour la "
+msgstr "Réputation de départ d'un utilisateur lorsqu'il s'identifie pour la "
 "première fois."
 
 #: forum/settings/repgain.py:12
 msgid "Maximum reputation a user can gain in one day for being upvoted."
-msgstr ""
-"Réputation maximale qu'un utilisateur peut obtenir en une journée avec des "
-"votes pour."
+msgstr "Réputation maximale qu'un utilisateur peut obtenir en une journée avec des "
+"votes favorables."
 
 #: forum/settings/repgain.py:15
 msgid "Rep gain by e-mail validation"
@@ -2057,8 +2219,7 @@ msgstr "Gain de réputation obtenu pour la validation d'un courriel"
 #: forum/settings/repgain.py:16
 #, fuzzy
 msgid "Reputation a user gains for validating his e-mail."
-msgstr ""
-"Gain de réputation obtenu par un utilisateur lors de la validation de son adresse de courriel."
+msgstr "Réputation gagnée par un utilisateur lors de la validation de son adresse courriel."
 
 #: forum/settings/repgain.py:19
 msgid "Rep gain by upvoted"
@@ -2066,88 +2227,96 @@ msgstr "Gain de réputation par vote favorable"
 
 #: forum/settings/repgain.py:20
 msgid "Reputation a user gains for having one of his posts up voted."
-msgstr ""
-"Gain de réputation obtenu par un utilisateur lorsqu'une de ses contributions est "
-"votée favorablement."
+msgstr "Réputation gagnée par un utilisateur lorsqu'une de ses publications reçoit "
+"un vote favorable."
 
 #: forum/settings/repgain.py:23
 msgid "Rep lost by downvoted"
-msgstr "Réputation perdue lors d'un vote contre"
+msgstr "Réputation perdue lors d'un vote défavorable"
 
 #: forum/settings/repgain.py:24
 msgid "Reputation a user loses for having one of his posts down voted."
-msgstr ""
-"Réputation perdue par un utilisateur lorsqu'une de ses soumissions se voit "
-"votée contre."
+msgstr "Réputation perdue par un utilisateur lorsqu'une de ses publications reçoit "
+"un vote défavorable."
 
 #: forum/settings/repgain.py:27
 msgid "Rep lost by downvoting"
-msgstr "Réputation perdue avec un vote contre"
+msgstr "Réputation perdue avec un vote défavorable"
 
 #: forum/settings/repgain.py:28
 msgid "Reputation a user loses for down voting a post."
-msgstr "Réputation perdue par un utilisateur lorsqu'il y a un vote contre une"
-" contribution."
+msgstr "Réputation perdue par un utilisateur pour un vote défavorable à une "
+"publication."
 
 #: forum/settings/repgain.py:32
 msgid "Rep gain by accepted answer"
-msgstr "Amélioration de réputation lorsqu'une contribution est acceptée."
+msgstr "Réputation gagnée lorsqu'une réponse est acceptée."
 
 #: forum/settings/repgain.py:33
 msgid "Reputation a user gains for having one of his answers accepted."
-msgstr "Amélioration de réputation obtenue par un utilisateur lorsqu'une "
-"de ses contributions est acceptée."
+msgstr "Réputation gagnée par un utilisateur lorsqu'une "
+"de ses réponses est acceptée."
 
 #: forum/settings/repgain.py:36
 msgid "Rep gain by accepting answer"
-msgstr "Gain de réputation lors de l'acceptation de la réponse"
+msgstr "Réputation gagnée lors de l'acceptation d'une réponse"
 
 #: forum/settings/repgain.py:37
 msgid ""
 "Reputation a user gains for accepting an answer to one of his questions."
-msgstr "Gain de réputation obtenu par un utilisateur pour avoir accepté une "
+msgstr "Réputation gagnée par un utilisateur pour avoir accepté une "
 "réponse à une de ses questions."
 
 #: forum/settings/repgain.py:40
 msgid "Rep lost by post flagged"
-msgstr "Réputation perdue lorsqu'un message est signalé"
+msgstr "Réputation perdue lorsqu'une publication est signalée"
 
 #: forum/settings/repgain.py:41
 msgid "Reputation a user loses by having one of his posts flagged."
-msgstr "Réputation perdue par un utilisateur lorsqu'un de ses messages est signalé."
+msgstr "Réputation perdue par un utilisateur lorsqu'une de ses publications est signalée."
 
 #: forum/settings/repgain.py:44
 msgid "Rep lost by post flagged and hidden"
-msgstr "Réputation perdue pour chaque message signalé et caché"
+msgstr "Réputation perdue pour chaque publication signalée et cachée"
 
 #: forum/settings/repgain.py:45
 msgid ""
 "Reputation a user loses by having the last revision of one of his posts "
 "flagged the enough number of times to hide the post."
 msgstr "Réputation perdue par un utilisateur lorsque la dernière "
-"modification d'un de ses messages est signalé suffisamment de fois "
-"pour que le message soit caché."
+"modification d'une de ses publications est signalée suffisamment de fois "
+"pour que cette publication soit cachée."
 
 #: forum/settings/repgain.py:48
 msgid "Rep lost by post flagged and deleted"
-msgstr "Réputation perdue par message signalé et effacé"
+msgstr "Réputation perdue par publication signalée et effacée"
 
 #: forum/settings/repgain.py:49
 msgid ""
 "Reputation a user loses by having the last revision of one of his posts "
 "flagged the enough number of times to delete the post."
-msgstr "Réputation perdue par un utilisateur lorsque la dernière modification "
-"d'un de ses messages est signalé suffisament de fois pour entraîner son effacement."
+msgstr "Réputation perdue par un utilisateur lorsque la dernière "
+"modification d'une de ses publications est signalée suffisamment de fois "
+"pour que cette publication soit supprimée."
 
 #: forum/settings/sidebar.py:10
 msgid "Show the Welcome box"
-msgstr "Afficher la boite de bienvenue"
+msgstr "Afficher la boîte de bienvenue"
 
 #: forum/settings/sidebar.py:11
 msgid "Do you want to show the welcome box when a user first visits your site."
 msgstr ""
-"Voulez-vous afficher la boite de bienvenue lors de la première visite d'un "
-"utilisateur sur votre site."
+"Si coché, la boîte de bienvenue sera affichée lors de la première visite d'un "
+"utilisateur sur votre site"
+
+#: forum/settings/sidebar.py:15
+msgid "Show interesting tags in the sidebar"
+msgstr "Afficher les mots-clés intéressants dans la barre latérale"
+
+#: forum/settings/sidebar.py:16
+msgid ""
+"Check this if you want to see the interesting tags container in the sidebar."
+msgstr "Si coché, le conteneur des mots-clés intéressants sera visible dans la barre latérale"
 
 #: forum/settings/sidebar.py:15
 msgid "Application intro"
@@ -2156,7 +2325,48 @@ msgstr "Introduction à l'application"
 #: forum/settings/sidebar.py:16
 msgid ""
 "The introductory page that is visible in the sidebar for anonymous users."
-msgstr "La page d'introduction qui est visible sur la barre latérale pour les utilisateurs anonymes."
+msgstr "Page d'introduction visible sur la barre latérale pour les utilisateurs anonymes."
+
+#: forum/settings/sidebar.py:32
+msgid "Question title tips"
+msgstr "Conseils pour le titre de la question"
+
+#: forum/settings/sidebar.py:33
+msgid ""
+"Tips visible on the ask or edit questions page about the question title."
+msgstr "Conseils visibles sur les pages de création et de modification d'une question concernant son titre."
+
+#: forum/settings/sidebar.py:44
+msgid "Tagging tips"
+msgstr "Conseils pour l'attribution de mots-clés"
+
+#: forum/settings/sidebar.py:45
+msgid "Tips visible on the ask or edit questions page about good tagging."
+msgstr "Conseils visibles sur les pages de création et de modification d'une question pour une bonne attribution de mots-clés."
+
+#: forum/settings/sidebar.py:51
+msgid "Show Upper Block"
+msgstr "Affichage du bloc supérieur"
+
+#: forum/settings/sidebar.py:52
+msgid "Check if your pages should display the upper sidebar block."
+msgstr "Si coché, les pages afficheront le bloc supérieur de la barre latérale."
+
+#: forum/settings/sidebar.py:56
+msgid "Don't Wrap Upper Block"
+msgstr "Ne pas envelopper le bloc supérieur"
+
+#: forum/settings/sidebar.py:57
+msgid "Don't wrap upper block with the standard style."
+msgstr "Si coché, le bloc supérieur ne sera pas enveloppé avec le style standard."
+
+#: forum/settings/sidebar.py:69
+msgid "Upper Block Content"
+msgstr "Contenu du bloc supérieur"
+
+#: forum/settings/sidebar.py:70
+msgid "The upper sidebar block."
+msgstr "Texte du bloc supérieur."
 
 #: forum/settings/sidebar.py:71
 msgid "Upper block rendering mode"
@@ -2164,7 +2374,31 @@ msgstr "Mode de rendu pour le pavé supérieur"
 
 #: forum/settings/sidebar.py:72
 msgid "How to render your upper block code."
-msgstr "Comment obtenir le rendu du code de votre pavé supérieur."
+msgstr "Mode de rendu utilisé pour le pavé supérieur."
+
+#: forum/settings/sidebar.py:81
+msgid "Show Lower Block"
+msgstr "Affichage du bloc inférieur"
+
+#: forum/settings/sidebar.py:82
+msgid "Check if your pages should display the lower sidebar block."
+msgstr "Si coché, les pages afficheront le bloc inférieur de la barre latérale."
+
+#: forum/settings/sidebar.py:86
+msgid "Don't Wrap Lower Block"
+msgstr "Ne pas envelopper le bloc inférieur"
+
+#: forum/settings/sidebar.py:87
+msgid "Don't wrap lower block with the standard style."
+msgstr "Si coché, le bloc inférieur ne sera pas enveloppé avec le style standard."
+
+#: forum/settings/sidebar.py:89
+msgid "Lower Block Content"
+msgstr "Contenu du bloc inférieur"
+
+#: forum/settings/sidebar.py:90
+msgid "The lower sidebar block."
+msgstr "Texte du bloc inférieur."
 
 #: forum/settings/sidebar.py:100
 msgid "Lower block rendering mode"
@@ -2172,58 +2406,89 @@ msgstr "Mode de rendu du pavé inférieur"
 
 #: forum/settings/sidebar.py:101
 msgid "How to render your lower block code."
-msgstr "Comment obtenir le mode de rendu du pavé inférieur."
+msgstr "Mode de rendu utilisé pour le pavé inférieur."
+
+#: forum/settings/sitemaps.py:5
+msgid "Sitemap settings"
+msgstr "Plan du site"
+
+#: forum/settings/sitemaps.py:5
+msgid "Some settings connected with the Sitemaps."
+msgstr "Quelques réglages en lien avec le plan du site."
+
+#: forum/settings/sitemaps.py:8
+msgid "Questions Sitemap Limit"
+msgstr "Limite du nombre de questions du plan du site"
+
+#: forum/settings/sitemaps.py:9
+msgid "The questions limit per page for the Questions Sitemap."
+msgstr "Limite du nombre de questions par page du plan du site"
+
+#: forum/settings/sitemaps.py:12
+msgid "Questions Sitemap Change Fraquence"
+msgstr "Changement de fréquence des questions du plan du site"
+
+#: forum/settings/sitemaps.py:13
+msgid ""
+"Used in the Questions Sitemap <changefreq> tag and specifies the content "
+"change frequency."
+msgstr "Utilisé dans le tag <changefreq> du plan du site des questions et spécifie la "
+"fréquence de changement du contenu"
 
 #: forum/settings/static.py:17
 msgid "Use custom CSS"
-msgstr "Utiliser un CSS personalisé"
+msgstr "Utiliser un CSS personnalisé"
 
 #: forum/settings/static.py:18
 msgid "Do you want to use custom CSS."
-msgstr "Voulez-vous utiliser un CSS personalisé."
+msgstr "Si coché, un CSS personnalisé sera utilisé."
 
 #: forum/settings/static.py:22
 msgid "Custom CSS"
-msgstr "CSS personalisé"
+msgstr "CSS personnalisé"
+
+#: forum/settings/static.py:31
+msgid "Header and Footer"
+msgstr "Entête et pied de page"
 
 #: forum/settings/static.py:23
 msgid "Your custom CSS."
-msgstr "Votre CSS personalisé."
+msgstr "Votre CSS personnalisé."
 
 #: forum/settings/static.py:31
 msgid "Use custom header"
-msgstr "Utiliser un bandeau personalisé"
+msgstr "Utiliser un en-tête personnalisé"
 
 #: forum/settings/static.py:32
 msgid "Do you want to use a custom header."
-msgstr "Voulez-vous utiliser un bandeau personalisé."
+msgstr "Si coché, un en-tête personnalisé sera utilisé."
 
 #: forum/settings/static.py:36
 msgid "Custom Header"
-msgstr "Bandeau personalisé"
+msgstr "En-tête personnalisé"
 
 #: forum/settings/static.py:37
 msgid "Your custom header."
-msgstr "Votre bandeau personalisé."
+msgstr "Votre en-tête personnalisé."
 
 #: forum/settings/static.py:42
 msgid "Custom Header rendering mode"
-msgstr "Mode de rendu du bandeau personalisé"
+msgstr "Mode de rendu du en-tête personnnalisé"
 
 #: forum/settings/static.py:43
 msgid "How to render your custom header code."
-msgstr "Comment obtenir le rendu du code de votre en-tête personalisé."
+msgstr "Mode de rendu du code de votre en-tête personnalisé."
 
 #: forum/settings/static.py:48
 msgid "Show announcement bar"
-msgstr "Montrer la barre d'annonces"
+msgstr "Afficher la barre d'annonces"
 
 #: forum/settings/static.py:49
 msgid ""
 "Some piece of content that goes under the search bar and can be used for "
 "announcements, etc."
-msgstr "Un contenu qui peut se placer sous la barre de recherche et être utilisé "
-"pour des annonces etc ..."
+msgstr "Si coché, un contenu placé sous la barre de recherche, et par exemple destiné à diffuser "
+"des annonces, sera affiché."
 
 #: forum/settings/static.py:53
 msgid "Announcement bar"
@@ -2231,7 +2496,7 @@ msgstr "Barre d'annonce"
 
 #: forum/settings/static.py:54
 msgid "The announcement bar content."
-msgstr "Le contenu de la barre d'annonces."
+msgstr "Contenu de la barre d'annonces."
 
 #: forum/settings/static.py:59
 #, fuzzy
@@ -2240,27 +2505,27 @@ msgstr "Mode de rendu de la barre d'annonces"
 
 #: forum/settings/static.py:60
 msgid "How to render your announcement bar code."
-msgstr "Comment obtenir le rendu du code de votre barre d'annonces."
+msgstr "Mode de rendu de votre barre d'annonces."
 
 #: forum/settings/static.py:65
 msgid "Use custom footer"
-msgstr "Utiliser un pied-de-page personalisé"
+msgstr "Utiliser un pied de page personnalisé"
 
 #: forum/settings/static.py:66
 msgid "Do you want to use a custom footer."
-msgstr "Voulez-vous utiliser un pied-de-page personalisé."
+msgstr "Si coché, un pied de page personnalisé sera utilisé."
 
 #: forum/settings/static.py:70
 msgid "Custom Footer"
-msgstr "Pied-de-page personalisé"
+msgstr "Pied de page personnalisé"
 
 #: forum/settings/static.py:71
 msgid "Your custom footer."
-msgstr "Votre pied-de-page personalisé."
+msgstr "Votre pied de page personnalisé."
 
 #: forum/settings/static.py:76
 msgid "Custom footer rendering mode"
-msgstr "Mode de rendu du pied-de-page"
+msgstr "Mode de rendu du pied de page"
 
 #: forum/settings/static.py:77
 msgid "How to render your custom footer code."

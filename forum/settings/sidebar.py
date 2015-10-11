@@ -4,7 +4,7 @@ from django.utils.translation import ugettext_lazy as _
 
 from static import RENDER_CHOICES
 
-SIDEBAR_SET = SettingSet('sidebar', 'Sidebar content', "Enter contents to display in the sidebar. You can use markdown and some basic html tags.", 10, True)
+SIDEBAR_SET = SettingSet('sidebar', _('Sidebar Content'), "Enter contents to display in the sidebar. You can use markdown and some basic html tags.", 10, True)
 
 SHOW_WELCOME_BOX = Setting('SHOW_WELCOME_BOX', True, SIDEBAR_SET, dict(
 label = _("Show the Welcome box"),
@@ -29,8 +29,8 @@ u"""
  - be clear and concise
 """
 , SIDEBAR_SET, dict(
-label = "Question title tips",
-help_text = "Tips visible on the ask or edit questions page about the question title.",
+label = _("Question title tips"),
+help_text = _("Tips visible on the ask or edit questions page about the question title."),
 required=False,
 widget=Textarea(attrs={'rows': '10'})))
 
@@ -41,20 +41,20 @@ u"""
  - A question can have up to |FORM_MAX_NUMBER_OF_TAGS| tags, but it must have at least |FORM_MIN_NUMBER_OF_TAGS|.
 """
 , SIDEBAR_SET, dict(
-label = "Tagging tips",
-help_text = "Tips visible on the ask or edit questions page about good tagging.",
+label = _("Tagging tips"),
+help_text = _("Tips visible on the ask or edit questions page about good tagging."),
 required=False,
 widget=Textarea(attrs={'rows': '10'})))
 
 
 SIDEBAR_UPPER_SHOW = Setting('SIDEBAR_UPPER_SHOW', True, SIDEBAR_SET, dict(
-label = "Show Upper Block",
-help_text = "Check if your pages should display the upper sidebar block.",
+label = _("Show Upper Block"),
+help_text = _("Check if your pages should display the upper sidebar block."),
 required=False))
 
 SIDEBAR_UPPER_DONT_WRAP = Setting('SIDEBAR_UPPER_DONT_WRAP', False, SIDEBAR_SET, dict(
-label = "Don't Wrap Upper Block",
-help_text = "Don't wrap upper block with the standard style.",
+label = _("Don't Wrap Upper Block"),
+help_text = _("Don't wrap upper block with the standard style."),
 required=False))
 
 SIDEBAR_UPPER_TEXT = Setting('SIDEBAR_UPPER_TEXT',
@@ -68,8 +68,8 @@ under $10/month their reliable servers get the job done. See our \
 
 [1]: http://www.webfaction.com?affiliate=osqa
 [2]: /m/default/media/images/webfaction.png""", SIDEBAR_SET, dict(
-label = "Upper Block Content",
-help_text = " The upper sidebar block. ",
+label = _("Upper Block Content"),
+help_text = _("The upper sidebar block."),
 widget=Textarea(attrs={'rows': '10'})))
 
 SIDEBAR_UPPER_RENDER_MODE = Setting('SIDEBAR_UPPER_RENDER_MODE', 'markdown', SIDEBAR_SET, dict(
@@ -80,13 +80,13 @@ required=False))
 
 
 SIDEBAR_LOWER_SHOW = Setting('SIDEBAR_LOWER_SHOW', True, SIDEBAR_SET, dict(
-label = "Show Lower Block",
-help_text = "Check if your pages should display the lower sidebar block.",
+label = _("Show Lower Block"),
+help_text = _("Check if your pages should display the lower sidebar block."),
 required=False))
 
 SIDEBAR_LOWER_DONT_WRAP = Setting('SIDEBAR_LOWER_DONT_WRAP', False, SIDEBAR_SET, dict(
-label = "Don't Wrap Lower Block",
-help_text = "Don't wrap lower block with the standard style.",
+label = _("Don't Wrap Lower Block"),
+help_text = _("Don't wrap lower block with the standard style."),
 required=False))
 
 SIDEBAR_LOWER_TEXT = Setting('SIDEBAR_LOWER_TEXT',
@@ -97,8 +97,8 @@ The [**OSQA website**](http://www.osqa.net/) and [**OSQA wiki**](http://wiki.osq
 are great resources to help you learn more about the OSQA open source Q&A system. \
 [**Join the OSQA chat!**](http://meta.osqa.net/question/79/is-there-an-online-chat-room-or-irc-channel-for-osqa#302)
 """, SIDEBAR_SET, dict(
-label = "Lower Block Content",
-help_text = " The lower sidebar block. ",
+label = _("Lower Block Content"),
+help_text = _("The lower sidebar block."),
 widget=Textarea(attrs={'rows': '10'})))
 
 SIDEBAR_LOWER_RENDER_MODE = Setting('SIDEBAR_LOWER_RENDER_MODE', 'markdown', SIDEBAR_SET, dict(

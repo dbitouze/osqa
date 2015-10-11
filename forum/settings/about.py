@@ -1,7 +1,8 @@
 from base import Setting, SettingSet
 from django.forms.widgets import Textarea
+from django.utils.translation import ugettext_lazy as _
 
-PAGES_SET = SettingSet('about', 'About page', "Define the text in the about page. You can use markdown and some basic html tags.", 2000, True)
+PAGES_SET = SettingSet('about', _('About page'), _("Define the text in the about page. You can use markdown and some basic html tags."), 2000, True)
 
 ABOUT_PAGE_TEXT = Setting('ABOUT_PAGE_TEXT',
 u"""
@@ -21,8 +22,8 @@ No points are necessary to ask or answer the questions - so please - join us!
 
 If you would like to find out more about this site - please see the **frequently asked questions** page.
 """, PAGES_SET, dict(
-label = "About page text",
-help_text = """
+label = _("About page text"),
+help_text = _("""
 The about page.
-""",
+"""),
 widget=Textarea(attrs={'rows': '20'})))

@@ -24,7 +24,7 @@ help_text = _("The title of your application that will show in the browsers titl
 
 APP_SHORT_NAME = Setting(u'APP_SHORT_NAME', 'OSQA', BASIC_SET, dict(
 label = _("Application short name"),
-help_text = "The short name for your application that will show up in many places."))
+help_text = _("The short name for your application that will show up in many places.")))
 
 APP_KEYWORDS = Setting('APP_KEYWORDS', u'OSQA,CNPROG,forum,community', BASIC_SET, dict(
 label = _("Application keywords"),

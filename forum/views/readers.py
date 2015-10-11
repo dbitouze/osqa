@@ -60,7 +60,7 @@ class QuestionListPaginatorContext(pagination.PaginatorContext):
             (_('newest'), pagination.SimpleSort(_('newest'), '-added_at', _("most <strong>recently asked</strong> questions"))),
             (_('hottest'), HottestQuestionsSort(_('hottest'), _("most <strong>active</strong> questions in the last 24 hours</strong>"))),
             (_('mostvoted'), pagination.SimpleSort(_('most voted'), '-score', _("most <strong>voted</strong> questions"))),
-            (_('unanswered'), UnansweredQuestionsSort('unanswered', "questions with no answers")),
+            (_('unanswered'), UnansweredQuestionsSort(_('unanswered'), _("questions with no answers"))),
         ), pagesizes=pagesizes, default_pagesize=default_pagesize, prefix=prefix)
 
 class AnswerSort(pagination.SimpleSort):

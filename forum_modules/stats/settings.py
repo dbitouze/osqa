@@ -8,7 +8,7 @@ from base import generate_installation_key
 STATS_SET = SettingSet('stats', _('Stats Settings'), _("OSQA Stats Settings."), 100)
 
 CHECK_FOR_UPDATES = Setting('CHECK_FOR_UPDATES', True, STATS_SET, dict(
-label = "Check for updates",
+label = _("Check for updates"),
 help_text = _("""
 Use the OSQA stats server recieve notifications about the latest updates.
 """),

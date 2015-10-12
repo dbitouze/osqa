@@ -48,7 +48,7 @@
 
         {% if form.recaptcha %}
         <div class="form-row">
-            <label for="recaptcha_response_field">Are you a human?
+            <label for="recaptcha_response_field">{% trans "Are you a human?" %}
             {% if form.errors.recaptcha %}
             <strong>{% trans "(wrong captcha)" %}</strong>
             {% endif %}

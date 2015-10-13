@@ -8463,6 +8463,15 @@ msgstr "Progression totale "
 msgid " of "
 msgstr " de "
 
+#: forum_modules/facebookauth/authentication.py:55
+msgid ""
+"Something wrond happened during Facebook authentication, administrators will "
+"be notified"
+msgstr ""
+"Quelque chose d'anormal s'est produit lors de votre authentification "
+"Facebook. "
+"Les administrateurs en seront avertis"
+
 #: forum_modules/facebookauth/authentication.py:31
 msgid "Sorry, your Facebook session has expired, please try again"
 msgstr "Désolé, votre session Facebook a expiré, essayez de nouveau s'il vous plaît"
@@ -8482,135 +8491,489 @@ msgstr ""
 "L'authentification avec Facebook Connect a échoué, ne peut pas trouver les "
 "jetons d'authentification"
 
+#: forum_modules/ldapauth/authentication.py:16
+#: forum_modules/ldapauth/authentication.py:33
+#: forum_modules/ldapauth/authentication.py:44
+msgid ""
+"Login failed. Please enter valid username and password (both are case-"
+"sensitive)"
+msgstr ""
+"L'authentification a échoué. Veuillez saisir des nom d'utilisateur et "
+"mot de passe valides (tous les deux sont sensibles à la casse)"
+
+#: forum_modules/ldapauth/authentication.py:27
+msgid ""
+"Login failed - LDAP bind error. Please contact your system administrator"
+msgstr ""
+"L'authentification a échoué - erreur de liaison LDAP. "
+"Veuillez consulter votre administrateur"
+
+#: forum_modules/ldapauth/settings.py:4
+msgid "LDAP settings"
+msgstr "LDAP"
+
+#: forum_modules/ldapauth/settings.py:4
+msgid "LDAP configuration for OSQA"
+msgstr "Configuration LDAP pour OSQA"
+
+#: forum_modules/ldapauth/settings.py:7
+msgid "LDAP Server"
+msgstr "Serveur LDAP"
+
+#: forum_modules/ldapauth/settings.py:8
+msgid "The hostname of your organization's LDAP server"
+msgstr "Le nom d'hôte du serveur LDAP que vous utilisez"
+
+#: forum_modules/ldapauth/settings.py:13
+msgid "Check to use TLS"
+msgstr "Validez pour utiliser TLS"
+
+#: forum_modules/ldapauth/settings.py:17
+msgid "DN for binding"
+msgstr "DN pour la liaison"
+
+#: forum_modules/ldapauth/settings.py:18
+msgid ""
+"Enter the DN to use to bind to the LDAP server (leave blank for anonymous "
+"bind)"
+msgstr ""
+"Saisissez le DN à utiliser pour la liaison au serveur LDAP "
+"(laissez vide pour une liaison anonyme)"
+
+#: forum_modules/ldapauth/settings.py:22
+msgid "Password for binding"
+msgstr "Mot de passe pour la liaison"
+
+#: forum_modules/ldapauth/settings.py:23
+msgid "Password for binding DN above"
+msgstr "Mot de passe pour la liaison du DN ci-dessus"
+
+#: forum_modules/ldapauth/settings.py:27
+msgid "Base DN"
+msgstr "Base DN"
+
+#: forum_modules/ldapauth/settings.py:28
+msgid "The Base DN used to search for users"
+msgstr "La base DN utilisée pour rechercher des utilisateurs"
+
+#: forum_modules/ldapauth/settings.py:32
+msgid "User Mask"
+msgstr "Masque utilisateur"
+
+#: forum_modules/ldapauth/settings.py:33
+msgid "The mask to query for a User"
+msgstr "Masque pour une requête sur l'utilisateur"
+
+#: forum_modules/ldapauth/settings.py:37
+msgid "uid field"
+msgstr "Champ UID"
+
+#: forum_modules/ldapauth/settings.py:38
+msgid "ldap field that holds the uid (sAMAccountName in AD)"
+msgstr "champ LDAP contenant l'UID (sAMAccountName dans AD)"
+
+#: forum_modules/ldapauth/settings.py:42
+msgid "Name field"
+msgstr "Champ nom"
+
+#: forum_modules/ldapauth/settings.py:43
+msgid "ldap field that holds the full name (displayName in AD)"
+msgstr "champ LDAP contenant le nom complet (displayName dans AD)"
+
+#: forum_modules/ldapauth/settings.py:47
+msgid "DN field"
+msgstr "Champ DN"
+
+#: forum_modules/ldapauth/settings.py:48
+msgid "ldap field that holds the distinguished name (distinguishedName in AD)"
+msgstr "champ LDAP contenant le nom unique (distinguishedName dans AD)"
+
+#: forum_modules/ldapauth/settings.py:52
+msgid "email field"
+msgstr "Champ courriel"
+
+#: forum_modules/ldapauth/settings.py:53
+msgid "ldap field that holds the email"
+msgstr "champ LDAP contenant le courriel"
+
+#: forum_modules/ldapauth/templates/loginform.html:4
+msgid "Enter your LDAP user name and password"
+msgstr "Saisissez vos nom d'utilisateur et mot de passe LDAP"
+
 #: forum_modules/localauth/forms.py:75
 msgid "Please enter valid username and password (both are case-sensitive)."
 msgstr ""
-"Entrez un nom d'utilisateur et un mot de passe valides s'il vous plaît (les deux "
+"Veuillez saisir un nom d'utilisateur et un mot de passe valides (les deux "
 "sont sensibles à la casse)."
 
 #: forum_modules/localauth/forms.py:79
 msgid "Login failed."
-msgstr "Échec de la connexion."
+msgstr "L'authentification a échoué."
 
 #: forum_modules/localauth/forms.py:83
 msgid "This user is not a valid user"
-msgstr "Cet utilisateur n'est pas un utilisateur valide"
+msgstr "Cet utilisateur n'est pas reconnu"
 
 #: forum_modules/localauth/forms.py:86
 msgid "Please enter username and password"
-msgstr "Entrez un nom d'utilisateur et un mot de passe"
+msgstr "Veuillez saisir vos nom d'utilisateur et mot de passe"
 
 #: forum_modules/localauth/forms.py:88
 msgid "Please enter your password"
-msgstr "Entrez votre mot de passe s'il vous plaît"
+msgstr "Veuillez saisir votre mot de passe"
 
 #: forum_modules/localauth/forms.py:90
 msgid "Please enter user name"
-msgstr "Entrez le nom d'utilisateur"
+msgstr "Veuillez saisir votre nom d'utilisateur"
 
 #: forum_modules/localauth/urls.py:7
 msgid "local/"
-msgstr "local/"
+msgstr ""
 
 #: forum_modules/localauth/templates/loginform.html:4
 msgid "Enter your local user name and password"
-msgstr "Entrez votre nom d'utilisateur et votre mot de passe"
+msgstr "Veuillez saisir vos nom d'utilisateur et mot de passe locaux"
 
 #: forum_modules/localauth/templates/loginform.html:4
 msgid "or select your external provider above"
-msgstr "ou choisissez votre fournisseur externe au-dessus"
+msgstr "ou bien sélectionnez votre fournisseur externe parmi ceux mentionnés ci-dessus"
 
 #: forum_modules/localauth/templates/loginform.html:8
 msgid "Login name"
-msgstr "Login"
+msgstr "Nom d'utilisateur"
 
+#: forum_modules/localauth/templates/loginform.html:16
 #: forum_modules/localauth/templates/loginform.html:16
 msgid "Password"
 msgstr "Mot de passe"
 
 #: forum_modules/localauth/templates/loginform.html:27
 msgid "Create account"
-msgstr "Créez un compte"
+msgstr "Créer un compte"
 
 #: forum_modules/oauthauth/consumer.py:33
 msgid "Error, the oauth token is not on the server"
-msgstr "Erreur, le OAuth jeton n'est pas sur le serveur"
+msgstr "Erreur : le jeton d'authentification est absent du serveur"
 
 #: forum_modules/oauthauth/consumer.py:38
 msgid "Something went wrong! Auth tokens do not match"
-msgstr "Une erreur s'est produite ! Les jetons Auth ne correspondent pas"
+msgstr "Quelque chose ne va pas : les jetons d'authentification sont différents"
+
+#: forum_modules/oauthauth/settings.py:6
+msgid "Twitter consumer key"
+msgstr "Clé publique Twitter"
+
+#: forum_modules/oauthauth/settings.py:7
+msgid ""
+"\n"
+"Get this key at the <a href=\"http://twitter.com/apps/\">Twitter apps</a> to "
+"enable\n"
+"authentication in your site through Twitter.\n"
+msgstr ""
+"\n"
+"Clé publique (« consumer key ») qui peut être obtenue sur <a "
+"href=\"http://twitter.com/apps/\">"
+"l'application Twitter</a> pour activer l'authentification sur votre site via "
+"Twitter.\n"
+
+#: forum_modules/oauthauth/settings.py:14
+msgid "Twitter consumer secret"
+msgstr "Secret Twitter"
+
+#: forum_modules/oauthauth/settings.py:15
+msgid ""
+"\n"
+"This your Twitter consumer secret that you'll get in the same place as the "
+"consumer key.\n"
+msgstr ""
+"\n"
+"Secret (« consumer secret ») Twitter qui peut être obtenu au même endroit "
+"que la clé publique.\n"
+
+#: forum_modules/oauthauth/settings.py:21
+msgid "Twitter auto-callback redirect"
+msgstr "Auto-rappel de redirection Twitter"
+
+#: forum_modules/oauthauth/settings.py:22
+msgid ""
+"\n"
+"Automatically redirect to the Twitter authentication done page, pass the "
+"oauth_callback parameter.\n"
+msgstr ""
+"\n"
+"Rediriger automatiquement vers la page authentification Twitter et passer "
+"le paramètre oauth_callback.\n"
+
+#: forum_modules/recaptcha/settings.py:6
+msgid "Recaptcha public key"
+msgstr "Clé publique reCAPTCHA"
+
+#: forum_modules/recaptcha/settings.py:7
+msgid ""
+"\n"
+"Get this key at <a href=\"http://recaptcha.net\">reCaptcha</a> to enable\n"
+"recaptcha anti spam through.\n"
+msgstr ""
+"\n"
+"Clé publique qui peut être obtenue sur <a href=\"http://recaptcha.net/\">le "
+"site de reCAPTCHA</a> pour activer la protection anti-spam sur votre site via "
+"reCAPTCHA.\n"
+
+#: forum_modules/recaptcha/settings.py:14
+msgid "Recaptcha private key"
+msgstr "Clé privée reCAPTCHA"
+
+#: forum_modules/recaptcha/settings.py:15
+msgid ""
+"\n"
+"This is the private key you'll get in the same place as the recaptcha public "
+"key.\n"
+msgstr ""
+"\n"
+"Clé privée reCAPTCHA qui peut être obtenue au même endroit "
+"que la clé publique.\n"
+
+#: forum_modules/facebookauth/settings.py:6
+msgid "Facebook API key"
+msgstr "Clé API Facebook"
+
+#: forum_modules/facebookauth/settings.py:7
+msgid ""
+"\n"
+"Get this key at the <a href=\"http://www.facebook.com/developers/\">Facebook "
+"developers network</a> to enable\n"
+"authentication in your site through facebook.\n"
+msgstr ""
+"\n"
+"Clé API qui peut être obtenue sur <a href=\"http://www.facebook.com/developers"
+"/\">http://www.facebook.com/developers/"
+"</a> pour activer l'authentification sur votre site via Facebook.\n"
+
+#: forum_modules/facebookauth/settings.py:14
+msgid "Facebook APP secret"
+msgstr "Secret APP Facebook"
+
+#: forum_modules/facebookauth/settings.py:15
+msgid ""
+"\n"
+"This your facebook app secret that you'll get in the same place as the API "
+"key.\n"
+msgstr ""
+"\n"
+"Secret APP Facebook qui peut être obtenu au même endroit "
+"que la clé API.\n"
+
+#: forum_modules/oauthauth/lib/oauth2/httplib2/__init__.py:393
+#, python-format
+msgid "Content purported to be compressed with %s but failed to decompress."
+msgstr ""
+"Le contenu semble être compressé avec %s mais sa décompression a échoué."
+
+#: forum_modules/oauthauth/lib/oauth2/httplib2/__init__.py:503
+#, python-format
+msgid "Unsupported value for qop: %s."
+msgstr "Valeur non prise en charge par qop : %s"
+
+#: forum_modules/oauthauth/lib/oauth2/httplib2/__init__.py:506
+#: forum_modules/oauthauth/lib/oauth2/httplib2/__init__.py:567
+#, python-format
+msgid "Unsupported value for algorithm: %s."
+msgstr "Valeur non prise en charge par l'algorithme : %s"
+
+#: forum_modules/oauthauth/lib/oauth2/httplib2/__init__.py:564
+msgid "The challenge doesn't contain a server nonce, or this one is empty."
+msgstr ""
+"Le challenge ne contient pas de serveur pour l'occasion ou bien celui est "
+"vide."
+
+#: forum_modules/oauthauth/lib/oauth2/httplib2/__init__.py:570
+#, python-format
+msgid "Unsupported value for pw-algorithm: %s."
+msgstr "Valeur non prise en charge par pw-algorithm : %s."
+
+#: forum_modules/oauthauth/lib/oauth2/httplib2/__init__.py:1211
+msgid "Redirected but the response is missing a Location: header."
+msgstr "Redirigé mais la réponse ne contient pas d'entête « Location: »."
 
 #: forum_modules/openidauth/consumer.py:58
 msgid "Sorry, but your input is not a valid OpenId"
-msgstr "Désolé, votre entrée n'est pas un OpenID valide"
+msgstr "Désolé, mais ce que vous avez saisi n'est pas un OpenId valide"
 
 #: forum_modules/openidauth/consumer.py:148
 msgid "The OpenId authentication request was canceled"
-msgstr "La demande d'authentification OpenID a été annulée"
+msgstr "La requête d'authentification par OpenId a été annulée"
 
 #: forum_modules/openidauth/consumer.py:150
 msgid "The OpenId authentication failed: "
-msgstr "L'authentification OpenID a échoué: "
+msgstr "L'authentification par OpenId a échoué :"
 
 #: forum_modules/openidauth/consumer.py:152
 msgid "Setup needed"
-msgstr "Configuration nécessaire"
+msgstr "Un réglage est nécessaire"
 
 #: forum_modules/openidauth/consumer.py:154
 msgid "The OpenId authentication failed with an unknown status: "
-msgstr "L'authentification OpenID a échoué avec une erreur inconnue: "
+msgstr "L'authentification par OpenId a échoué pour une raison indéterminée :"
 
 #: forum_modules/openidauth/templates/openidurl.html:7
 msgid "Enter your OpenId Url"
-msgstr "Entrez votre URL OpenID"
+msgstr "Saisissez votre URL OpenId"
 
 #: forum_modules/project_badges/badges.py:9
 msgid "Bug Buster"
-msgstr "Ami des bogues"
+msgstr "Traqueur de bogues"
 
 #: forum_modules/project_badges/badges.py:10
 #, python-format
 msgid "Got %s upvotes in a question tagged with \"bug\""
-msgstr "%s voix pour une question avec le tag \"bug\""
+msgstr "%s votes favorables pour une question marquée avec « bug »"
 
 #: forum_modules/recaptcha/formfield.py:20
 msgid "Invalid captcha"
-msgstr "Captcha invalide"
+msgstr "Captcha non valide"
+
+#: forum_modules/stats/base.py:153
+msgid "Wasn't able to check to the update server."
+msgstr "Impossible de vérifier les mises à jour"
+
+#: forum_modules/stats/base.py:162
+msgid "Wasn't able to retreive the update messages."
+msgstr "Impossible de relever les messages de mise à jour"
+
+#: forum_modules/stats/base.py:174
+#, python-format
+msgid "%d update messages have been downloaded."
+msgstr "%d messages de mise à jour ont été relevés"
+
+#: forum_modules/stats/settings.py:8
+msgid "Stats Settings"
+msgstr "Statistiques"
+
+#: forum_modules/stats/settings.py:8
+msgid "OSQA Stats Settings."
+msgstr "Réglages statistiques OSQA"
+
+#: forum_modules/updates/settings.py:8
+#, fuzzy
+msgid "Updater Settings"
+msgstr "Réglages des mises à jour"
+
+#: forum_modules/updates/settings.py:8
+#, fuzzy
+msgid "OSQA Update Checker Settings."
+msgstr "Réglages de l'utilitaire de mises à jour OSQA."
+
+#: forum_modules/stats/settings.py:12
+msgid ""
+"\n"
+"Use the OSQA stats server recieve notifications about the latest updates.\n"
+msgstr ""
+"\n"
+"Utiliser le serveur de statistiques OSA pour recevoir des notifications des "
+"mises à jour les plus récentes.\n"
+
+#: forum_modules/updates/urls.py:8
+#, fuzzy
+msgid "updater/"
+msgstr ""
+
+#: forum_modules/updates/views.py:8
+#, fuzzy
+msgid "updater"
+msgstr "mettre à jour"
+
+#: forum_modules/stats/urls.py:7
+msgid "stats/"
+msgstr ""
+
+#: forum_modules/stats/urls.py:7
+msgid "check/"
+msgstr ""
+
+#: forum_modules/stats/views.py:8
+msgid "stats"
+msgstr "statistiques"
+
+#: forum_modules/stats/views.py:8
+msgid "Stats Module"
+msgstr "Module statistique"
+
+#: forum_modules/stats/templates/index.html:22
+msgid "Checking for updates"
+msgstr "Vérification des mises à jour disponibles"
+
+#: forum_modules/updates/views.py:8
+#: forum_modules/updates/templates/index.html:38
+#, fuzzy
+msgid "Update Checker"
+msgstr "Vérificateur de mises à jour"
+
+#: forum_modules/stats/templates/index.html:41
+msgid "Use the OSQA update server to check for updates"
+msgstr "Utiliser le serveur OSQA pour vérifier les mises à jour"
+
+#: forum_modules/stats/settings.py:11
+msgid "Check for updates"
+msgstr "Vérification des mises à jour"
+
+#: forum_modules/stats/templates/index.html:46
+msgid "Check for Updates"
+msgstr "Vérifier les mises à jour"
+
+#: forum_modules/robotstxt/settings.py:7
+msgid "Robots txt"
+msgstr "Robots txt"
+
+#: forum_modules/robotstxt/settings.py:7
+msgid "Set up the robots.txt file."
+msgstr "Paramétrer le fichier robots.txt"
+
+#: forum_modules/robotstxt/settings.py:20
+msgid "Robots.txt file"
+msgstr "Fichier robots.txt"
+
+#: forum_modules/robotstxt/settings.py:21
+msgid ""
+"\n"
+"The robots.txt file search engine spiders will see.\n"
+msgstr ""
+"\n"
+"Fichier robots.txt que les moteurs de recherche vont voir.\n"
 
 #: forum_modules/sximporter/importer.py:159
 #, python-format
 msgid "user-%(id)s"
-msgstr "utilisateur-%(id)s"
+msgstr ""
 
 #: forum_modules/sximporter/importer.py:169
 #, python-format
 msgid "user-%(id)s (google)"
-msgstr "utilisateur-%(id)s (google)"
+msgstr ""
 
 #: forum_modules/sximporter/importer.py:173
 #, python-format
 msgid "user-%(id)s (yahoo)"
-msgstr "utilisateur-%(id)s (yahoo)"
+msgstr ""
 
 #: forum_modules/sximporter/urls.py:8
 msgid "sximporter/"
-msgstr "sximporter/"
+msgstr ""
 
 #: forum_modules/sximporter/templates/page.html:7
 msgid "SX Importer"
-msgstr "SX importateur"
+msgstr "Importateur SX"
 
 #: forum_modules/sximporter/templates/page.html:10
 msgid "Welcome to Stack Exchange dump importer."
-msgstr "Bienvenue dans l'importeur de données au format StackExchange"
+msgstr "Bienvenue sur l'importateur de l'exportateur de Stack Exchange"
 
 #: forum_modules/sximporter/templates/page.html:16
 msgid "Your user id in stack exchange"
-msgstr "Votre id utilisateur StackExchange"
+msgstr "Votre identifiant sur Stack Exchange"
 
 #: forum_modules/sximporter/templates/page.html:20
 msgid "Merge users with same user name and email"
-msgstr "Regroupe les utilisateurs avec les mêmes nom d'utilisateur et adresse de courriel"
+msgstr "Fusionner les utilisateurs dotés des mêmes nom et adresse"
 
 #: locale/phrases.py:1
 msgid "Test Phrase 1"

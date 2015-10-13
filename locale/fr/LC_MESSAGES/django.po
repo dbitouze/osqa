@@ -821,11 +821,11 @@ msgstr "a reçu"
 #: forum/actions/user.py:157
 #, python-format
 msgid ""
-"Congratulations, you have received a badge '%(badge_name)s'. Check out <a "
-"href=\"%(profile_url)s\">your profile</a>."
+"Congratulations, you have received a badge '%(badge_name)s'. <a href="
+"\"%(badge_url)s\">Find out who has it, too</a>."
 msgstr ""
-"Félicitations, vous avez reçu la distinction « %(badge_name)s ». Consultez <a href="
-"\"%(profile_url)s\">votre profil</a>."
+"Félicitations, vous avez reçu la distinction « %(badge_name)s ». <a "
+"href=\"%(badge_url)s\">Découvrez qui l'a aussi</a>."
 
 #: forum/actions/user.py:179
 #, python-format
@@ -1041,7 +1041,7 @@ msgstr ""
 "pris par plusieurs utilisateurs"
 
 #: forum/forms/general.py:52
-msgid "user name can only consist of letters, empty space and underscore"
+msgid "user name can only consist of letters, empty space, hyphens and underscore"
 msgstr ""
 "un nom d'utilisateur ne peut contenir que des lettres, espace ou underscore"
 
@@ -1147,12 +1147,9 @@ msgstr ""
 
 #: forum/forms/qanda.py:97
 #, fuzzy
-msgid ""
-"please use following characters in tags: letters , numbers, and characters "
-"'.-_'"
-msgstr ""
-"veuillez utiliser les caractères suivants dans les mots-clés : lettres, "
-" chiffres ou les caractères '.-_'"
+msgid "please use following characters in tags: letters , numbers, and characters '.#-_'"
+msgstr "veuillez n'utiliser que les caractères suivants dans les mots-clés : lettres, "
+" chiffres et caractères « .-_ »"
 
 #: forum/forms/qanda.py:107
 #, python-format
@@ -3283,23 +3280,23 @@ msgstr "Changer le mot de passe"
 
 #: forum/skins/default/templates/account_settings.html:30
 msgid "Give your  account a new password."
-msgstr "Changez le mot de passe pour votre compte."
+msgstr "Changez le mot de passe de votre compte."
 
 #: forum/skins/default/templates/account_settings.html:32
 msgid "Change email "
-msgstr "Changez l'adresse de courriel "
+msgstr "Changer l'adresse courriel "
 
 #: forum/skins/default/templates/account_settings.html:33
 msgid "Add or update the email address associated with your account."
-msgstr "Ajoutez ou mettez à jour l'adresse de courriel associée à votre compte."
+msgstr "Ajoutez ou mettez à jour l'adresse courriel associée à votre compte."
 
 #: forum/skins/default/templates/account_settings.html:35
 msgid "Change OpenID"
-msgstr "Changez l'OpenID"
+msgstr "Changer l'OpenID"
 
 #: forum/skins/default/templates/account_settings.html:36
 msgid "Change openid associated to your account"
-msgstr "Change l'OpenID associé à votre compte"
+msgstr "Changez l'OpenID associé à votre compte."
 
 #: forum/skins/default/templates/account_settings.html:39
 msgid "Delete account"
@@ -3307,7 +3304,7 @@ msgstr "Supprimer le compte"
 
 #: forum/skins/default/templates/account_settings.html:40
 msgid "Erase your username and all your data from website"
-msgstr "Effacer votre nom d'utilisateur et toutes vos données du site Web"
+msgstr "Effacez votre nom d'utilisateur et toutes vos données de ce site"
 
 #: forum/skins/default/templates/answer_edit.html:5
 #: forum/skins/default/templates/answer_edit.html:62
@@ -4135,12 +4132,12 @@ msgstr "Répondez à votre question seulement pour donner une réponse."
 
 #: forum/skins/default/templates/question.html:205
 msgid "Please only give an answer, no discussions."
-msgstr "S'il vous plaît, répondez simplement à la question, pas de discussions."
+msgstr "Veuillez simplement répondre à la question, pas entamer de débats."
 
 #: forum/skins/default/templates/question.html:208
 msgid ""
 "Remember, your answer will not be published until you validate your email."
-msgstr "Souvenez-vous, votre réponse ne sera pas publiée avant que vous validiez votre adresse de courriel."
+msgstr "Souvenez-vous, votre réponse ne sera pas publiée tant que vous n'aurez pas validé votre adresse de courriel."
 
 #: forum/skins/default/templates/question.html:256
 msgid "Login/Signup to Post Your Answer"
@@ -4392,7 +4389,7 @@ msgstr "Mots-clés intéressants"
 #: forum/skins/default/templates/question_list/tag_selector.html:31
 #, python-format
 msgid "see questions tagged '%(tag_name)s'"
-msgstr "Voir les questions ayant le mot-clé « %(tagname)s »"
+msgstr "Voir les questions ayant le mot-clé « %(tag_name)s »"
 
 #: forum/skins/default/templates/tag_selector.html:14
 #: forum/skins/default/templates/question_list/tag_selector.html:17
@@ -4525,7 +4522,7 @@ msgstr "mot de passe"
 
 #: forum/skins/default/templates/auth/complete.html:92
 msgid "Register"
-msgstr "S'inscrire"
+msgstr "S'enregistrer"
 
 #: forum/skins/default/templates/auth/complete.html:93
 #: forum_modules/localauth/templates/loginform.html:27
@@ -4562,7 +4559,7 @@ msgid ""
 "If the above link is not clickable, copy and paste this url into your web "
 "browser's address bar:"
 msgstr ""
-"Si le lien ci-dessus ne peut être cliqué, copiez et collez le lien ci-dessous 
+"Si le lien ci-dessus ne peut être cliqué, copiez et collez le lien ci-dessous "
 "dans la barre d'adresse du navigateur :"
 
 #: forum/skins/default/templates/auth/mail_validation.html:24
@@ -4893,7 +4890,7 @@ msgstr ""
 
 #: forum/skins/default/templates/node/permanent_link.html:13
 msgid "Permanent link"
-msgstr "Lien permanent"
+msgstr "Lien permanent "
 
 #: forum/skins/default/templates/node/post_controls.html:14
 msgid "more"
